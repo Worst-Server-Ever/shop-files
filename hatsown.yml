@@ -1,4 +1,4 @@
-menu_title: 'hat menu'
+menu_title: '&b&lHat Menu'
 open_command: 'hatsown'
 size: 36
 update: true
@@ -24,13 +24,13 @@ items:
 
   'astronaut':
     material: hdb-4633
-    display_name: '&rAstronaut'
+    display_name: '&rAstronaut Hat'
     slot: 11
     update: true
     lore:
-      - '&bAstronaut hat'
+      - '&bAstronaut Hat'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -45,23 +45,23 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&Astronaut hat'
+    display_name: '&Astronaut Hat'
     lore:
-      - '&bYou do &lnot &bhave permission for this hat!'
+      - '&bYou do &lnot &bhave permission for this &3Hat&b!'
       - ''
-      - '&3&lLeft click &bto go to the hat shop!'
+      - '&3&lLeft click &bto go to the &3Hat &bshop!'
     left_click_commands:
       - '[player] hats'
 
   'squid':
     material: hdb-338
-    display_name: '&rSquid'
+    display_name: '&rSquid Hat'
     slot: 13
     update: true
     lore:
-      - '&bSquid hat'
+      - '&bSquid Hat'
       - ''
-      - '&3*lLeft click &bTo Equip'
+      - '&3*lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -76,23 +76,23 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&Squid hat'
+    display_name: '&Squid Hat'
     lore:
-      - '&bYou do &lnot &bhave permission for this hat!'
+      - '&bYou do &lnot &bhave permission for this &3Hat&b!'
       - ''
-      - '&3&lLeft click &bto go to the hat shop!'
+      - '&3&lLeft click &bto go to the &3Hat &bshop!'
     left_click_commands:
       - '[player] hats'
 
   'cheese':
     material: hdb-17267
-    display_name: '&rCheese'
+    display_name: '&rCheese Hat'
     slot: 15
     update: true
     lore:
-      - '&bCheese hat'
+      - '&bCheese Hat'
       - ''
-      - '&3*lLeft click &bTo Equip'
+      - '&3*lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -107,10 +107,10 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6Cheese hat'
+    display_name: '&6Cheese Hat'
     lore:
-      - '&bYou do &lnot &bhave permission for this hat!'
+      - '&bYou do &lnot &bhave permission for this &3Hat&b!'
       - ''
-      - '&3&lLeft click &bto go to the hat shop!'
+      - '&3&lLeft click &bto go to the &3Hat &bshop!'
     left_click_commands:
       - '[player] hats'

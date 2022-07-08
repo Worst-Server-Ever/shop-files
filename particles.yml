@@ -1,82 +1,122 @@
-menu_title: '&b&lparticle menu'
-open_command: 'particles'
-size: 36
-update: true
-items:
-  "exit-menu":
-    material: hdb-9111
-    display_name: "&c&lBack"
-    slot: 35
-    lore:
-      - '&3&lLeft click &bto go to previous menu'
-    left_click_commands:
-      - "[player] cosmetics"
+page1:
+  title: 'Load A Preset Group'
+  presets:
+    rainbows:
+      display-name: 'Rainbows'
+      gui-icon: 'ENDER_CHEST'
+      gui-slot: 11
+      permission: ''
+      allow-permission-override: false
+      1:
+        effect: 'dust'
+        style: 'orbit'
+        data: 'rainbow'
+      2:
+        effect: 'entity_effect'
+        style: 'feet'
+        data: 'rainbow'
+    angel:
+      display-name: 'Angel'
+      gui-icon: 'ENDER_CHEST'
+      gui-slot: 12
+      permission: ''
+      allow-permission-override: true
+      1:
+        effect: 'dust'
+        style: 'wings'
+        data: '255 255 0'
+      2:
+        effect: 'dust'
+        style: 'halo'
+        data: '255 255 255'
+    FairyTwins:
+      display-name: 'FairyTwins'
+      gui-icon: 'Allium'
+      gui-slot: 13
+      permission: 'FairyTwins'
+      allow-permission-override: true
+      1:
+        effect: 'witch'
+        style: 'Twins'
+        data: ' '
+#hdb-50216
+    Froggy:
+      gui-icon: chest
+      display-name: '&6↑ &eFroggy &6↑'
+      gui-slot: 14
+      permission: ''
+      allow-permission-override: true
+      1:
+        effect: 'Bubble'
+        style: 'Move'
+      2:
+        effect: 'Falling_Spore_Blossom'
+        style: 'Trail'
+#hdb-31264
+    Buzzy Bee:
+      gui-icon: chest
+      display-name: '&6ꝏ &eBuzzy Bee &6ꝏ'
+      gui-slot: 15
+      permission: ''
+      allow-permission-override: true
+      1:
+        effect: 'Dust'
+        style: 'Wings'
+        data: '#ffffff'
+      2:
+        effect: 'Dripping_Honey'
+        style: 'Move'
+      3:
+        effect: 'dust'
+        style: 'Overhead'
+        data: '#c0c0c0'
+#hdb-34467
+    Rainy_Cloud:
+      gui-icon: chest
+      display-name: '&6🌧 &eRainy Cloud &6🌧'
+      gui-slot: 16
+      permission: ''
+      allow-permission-override: true
+      1:
+        effect: 'Campfire_Cosy_Smoke'
+        style: 'Overhead'
+      2:
+        effect: 'Falling_Water'
+        style: 'Overhead'
+#hdb-50749    
+    Sculk:
+      gui-icon: chest
+      display-name: '&6☠ &eSculk &6☠'
+      gui-slot: 17
+      permission: 'sculk'
+      allow-permission-override: true
+      1:
+        effect: 'Block'
+        style: 'Hurt'
+        data: 'sculk'
+      2:
+        effect: 'Sculk_Charge'
+        style: 'Move'
+      3:
+        effect: 'Sonic_Boom'
+        style: 'Teleport'
+      4:
+        effect: 'Sculk_Soul'
+        style: 'Swords'
 
-  'info-item':
-    material: hdb-5654
-    display_name: '&eHow many points you have!'
-    slot: 4
-    update: true
-    lore:
-      - '&bYou have (&3&l%playerpoints_points% &bPoints)'
-      - '&byou can buy a variety of'
-      - '&3cosmetics &band &3mobs &bwith points!' 
-      - '&bYou can buy points online at' 
-      - '&3&nshop.worstserverever.com'
-      - '&bOr you can earn points by'
-      - '&3completing quests &band &3killing bosses!'
-    left_click_commands:
-      - "[message] &eClick to open the site &6| &3&nShop.Worstserverever.com"
-      - "[close]"
+    
 
-  'extra-info':
-    material: hdb-9128
-    display_name: '&eInfo'
-    slot: 27
-    lore:
-      - '&bparticle trails and effects'
 
-  'Rainy_Cloud':
-   material: hdb-34467
-   display_name: '&6🌧 &eRainy Cloud &6🌧'
-   slot: 11
-   update: true
-   hide_attributes: true
-   lore:
-      -  '&bA rainy cloud that follows you around '
-      -  '&3200&b &b&bpoints'
-      -  '  '
-      -  '&3&lLeft click &bto buy'
-   view_requirement:
-    requirements:
-      kit_perm:
-        type: has permission
-        permission: Rainy_Cloud
-   left_click_commands:
-    - '[player] pp reset'
-    - '[player] pp add Campfire_Cosy_Smoke Overhead'
-    - '[player] pp add Falling_water Overhead'
-    - '[close]'
+
   
-  'Sculk':
-   material: hdb-44531
-   display_name: '&eSculk effects'
-   slot: 13
-   update: true
-   hide_attributes: true
-   lore:
-      -  '&bA variety of sculk effects for'
-      -  '&bWalking, Sword attack, hurt and tp'
-      -  '&3300&b &b&bpoints'
-      -  '  '
-      -  '&3&lLeft click &bto buy'
-   view_requirement:
-    requirements:
-      kit_perm:
-        type: has permission
-        permission: Sculk
-   left_click_commands:
-    -'[player] pp reset'
-    -'[player] pp add group sculk
-    -'[close]'
-
+  extra:
+    0-8: GREEN
+    45-53: GREEN
+    9: GREEN
+    18: GREEN
+    27: GREEN
+    36: GREEN
+    17: GREEN
+    26: GREEN
+    35: GREEN
+    44: GREEN

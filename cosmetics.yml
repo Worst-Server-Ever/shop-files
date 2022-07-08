@@ -64,4 +64,4 @@ items:
     Lore:
       - '&3&lLeft click &bto view Morphs'
     left_click_commands:
-    - '[player] Morph'
+    - '[player] Morphs'

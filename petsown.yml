@@ -25,7 +25,7 @@ items:
 
   'Panda':
     material: hdb-49671
-    display_name: '&e&lPanda pet'
+    display_name: '&e&lPanda Pet'
     slot: 11
     priority: 1
     update: true
@@ -33,7 +33,7 @@ items:
     lore:
       - '&bPanda Pet'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -50,15 +50,15 @@ items:
     hide_attributes: true
     display_name: '&6&lpanda Pet'
     lore:
-      - '&bYou do &lnot &bhave permission for this pet!'
+      - '&bYou do &lnot &bhave permission for this &3Pet&b!'
       - ''
-      - '&3&lLeft click &bto go to the pet shop!'
+      - '&3&lLeft click &bto go to the &3Pet &bshop!'
     left_click_commands:
       - '[player] pet'
 
   'Fox':
     material: hdb-33923
-    display_name: '&e&lFox pet'
+    display_name: '&e&lFox Pet'
     slot: 21
     priority: 1
     update: true
@@ -66,7 +66,7 @@ items:
     lore:
       - '&bFox Pet'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -83,16 +83,16 @@ items:
     hide_attributes: true
     display_name: '&6&lFox Pet'
     lore:
-      - '&bYou do &lnot &bhave permission for this pet!'
+      - '&bYou do &lnot &bhave permission for this &3Pet&b!'
       - ''
-      - '&3&lLeft click &bto go to the pet shop!'
+      - '&3&lLeft click &bto go to the &3Pet &bshop!'
     left_click_commands:
       - '[player] pet'
 
 
   'Snow golem':
     material: hdb-4378
-    display_name: '&e&lSnow Golem pet'
+    display_name: '&e&lSnow Golem Pet'
     slot: 13
     priority: 1
     update: true
@@ -100,7 +100,7 @@ items:
     lore:
       - '&bSnow Golem Pet'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -117,15 +117,15 @@ items:
     hide_attributes: true
     display_name: '&6&lSnow golem Pet'
     lore:
-      - '&bYou do &lnot &bhave permission for this pet!'
+      - '&bYou do &lnot &bhave permission for this &3Pet&b!'
       - ''
-      - '&3&lLeft click &bto go to the pet shop!'
+      - '&3&lLeft click &bto go to the &3Pet &bshop!'
     left_click_commands:
       - '[player] pet'
 
   'Axolotl':
     material: hdb-49910
-    display_name: '&e&lAxolotl pet'
+    display_name: '&e&lAxolotl Pet'
     slot: 15
     priority: 1
     update: true
@@ -133,7 +133,7 @@ items:
     lore:
       - '&bAxolotl Pet'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -150,15 +150,15 @@ items:
     hide_attributes: true
     display_name: '&6&lAxolotl Pet'
     lore:
-      - '&bYou do &lnot &bhave permission for this pet!'
+      - '&bYou do &lnot &bhave permission for this &3Pet&b!'
       - ''
-      - '&3&lLeft click &bto go to the pet shop!'
+      - '&3&lLeft click &bto go to the &3Pet &bshop!'
     left_click_commands:
       - '[player] pet'
 
   'Blaze':
     material: hdb-322
-    display_name: '&e&lBlaze pet'
+    display_name: '&e&lBlaze Pet'
     slot: 23
     priority: 1
     update: true
@@ -166,7 +166,7 @@ items:
     lore:
       - '&bBlaze Pet'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -183,8 +183,8 @@ items:
     hide_attributes: true
     display_name: '&6&lBlaze Pet'
     lore:
-      - '&bYou do &lnot &bhave permission for this pet!'
+      - '&bYou do &lnot &bhave permission for this &3Pet&b!'
       - ''
-      - '&3&lLeft click &bto go to the pet shop!'
+      - '&3&lLeft click &bto go to the &3Pet &bshop!'
     left_click_commands:
       - '[player] pet'

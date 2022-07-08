@@ -48,4 +48,4 @@ items:
     lore:
       -  '&3&lLeft click &bto view &3Morphs'
     left_click_commands:
-    - '[player] morphown'
+    - '[player] morphssown'

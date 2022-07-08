@@ -33,14 +33,14 @@ items:
     update: true
     lore:
       - '&bYou have (&3&l%playerpoints_points% &bPoints)'
-      - '&byou can buy a variety of'
-      - '&3cosmetics &band &3mobs &bwith points!' 
+      - '&bYou can buy a variety of'
+      - '&3Cosmetics &band &3Mobs &bwith points!' 
       - '&bYou can buy points online at' 
-      - '&3&nshop.worstserverever.com'
+      - '&3&nShop.WorstServerEver.com'
       - '&bOr you can earn points by'
       - '&3completing quests &band &3killing bosses!'
     left_click_commands:
-      - "[message] &eClick to open the site &6| &3&nShop.Worstserverever.com"
+      - "[message] &eClick to open the site &6| &3&nShop.WorstServerEver.com"
       - "[close]"
 
   'Packages':

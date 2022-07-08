@@ -1,4 +1,4 @@
-menu_title: '&b&lhat menu'
+menu_title: '&b&lhat Menu'
 open_command: 'hats'
 size: 36
 update: true
@@ -20,19 +20,19 @@ items:
     update: true
     lore:
       - '&bYou have (&3&l%playerpoints_points% &bPoints)'
-      - '&byou can buy a variety of'
-      - '&3cosmetics &band &3mobs &bwith points!' 
+      - '&bYou can buy a variety of'
+      - '&3Cosmetics &band &3Mobs &bwith points!' 
       - '&bYou can buy points online at' 
-      - '&3&nshop.worstserverever.com'
+      - '&3&nShop.WorstServerEver.com'
       - '&bOr you can earn points by'
       - '&3completing quests &band &3killing bosses!'
     left_click_commands:
-      - "[message] &eClick to open the site &6| &3&nShop.Worstserverever.com"
+      - "[message] &eClick to open the site &6| &3&nShop.WorstServerEver.com"
       - "[close]"
 
   'astronaut':
     material: hdb-4633
-    display_name: '&e&lAstronaut'
+    display_name: '&e&lAstronaut Hat'
     slot: 11
     update: true
     lore:
@@ -51,17 +51,17 @@ items:
             type: javascript
             expression: '%playerpoints_points% >= 300'
             deny_commands:
-            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/300)'
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/300)'
             - '[close]'
     left_click_commands:
       - '[console] lp user %player_name% permission set ultracosmetics.hats.astronaut'
       - '[console] points take %player_name% 300'
-      - '[message] &e&lThank you! &7| &bYou have bought the astronaut hat for &3300&b!'
+      - '[message] &e&lThank you! &7| &bYou have bought the &3Astronaut Hat &bfor &3300&b!'
       - '[close]'
 
   'Squid':
     material: hdb-338
-    display_name: '&e&lSquid'
+    display_name: '&e&lSquid Hat'
     slot: 13
     update: true
     lore:
@@ -80,17 +80,17 @@ items:
             type: javascript
             expression: '%playerpoints_points% >= 300'
             deny_commands:
-            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/300)'
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/300)'
             - '[close]'
     left_click_commands:
       - '[console] lp user %player_name% permission set ultracosmetics.hats.squid'
       - '[console] points take %player_name% 300'
-      - '[message] &e&lThank you! &7| &bYou have bought the squid hat for &3300&b!'
+      - '[message] &e&lThank you! &7| &bYou have bought the &3Squid Hat &bfor &3300&b!'
       - '[close]'
 
   'cheese':
     material: hdb-17267
-    display_name: '&e&lcheese'
+    display_name: '&e&lCheese Hat'
     slot: 15
     update: true
     lore:
@@ -109,10 +109,10 @@ items:
             type: javascript
             expression: '%playerpoints_points% >= 300'
             deny_commands:
-            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/300)'
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/300)'
             - '[close]'
     left_click_commands:
       - '[console] lp user %player_name% permission set ultracosmetics.hats.cheese'
       - '[console] points take %player_name% 300'
-      - '[message] &e&lThank you! &7| &bYou have bought the cheese hat for &3300&b!'
+      - '[message] &e&lThank you! &7| &bYou have bought the &3Cheese Hat &bfor &3300&b!'
       - '[close]'

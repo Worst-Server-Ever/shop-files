@@ -1,4 +1,4 @@
-menu_title: '&b&lMorph menu'
+menu_title: '&b&lMorph Menu'
 open_command: 'morph'
 size: 36
 update: true
@@ -11,7 +11,7 @@ items:
     lore:
       - '&3&lLeft click &bto go to previous menu'
     left_click_commands:
-      - "[player] shop"
+      - "[player] cosmetics"
 
   'info-item':
     material: hdb-5654
@@ -20,14 +20,14 @@ items:
     update: true
     lore:
       - '&bYou have (&3&l%playerpoints_points% &bPoints)'
-      - '&byou can buy a variety of'
-      - '&3cosmetics &band &3mobs &bwith points!' 
+      - '&bYou can buy a variety of'
+      - '&3Cosmetics &band &3Mobs &bwith points!' 
       - '&bYou can buy points online at' 
-      - '&3&nshop.worstserverever.com'
+      - '&3&nShop.WorstServerEver.com'
       - '&bOr you can earn points by'
       - '&3completing quests &band &3killing bosses!'
     left_click_commands:
-      - "[message] &eClick to open the site &6| &3&nShop.Worstserverever.com"
+      - "[message] &eClick to open the site &6| &3&nShop.WorstServerEver.com"
       - "[close]"
 
   'grassblock':
@@ -51,13 +51,13 @@ items:
             type: javascript
             expression: '%playerpoints_points% >= 450'
             deny_commands:
-            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/450)'
             - '[close]'
     left_click_commands:
       - '[console] lp user %player_name% permission set libsdisguises.disguise.falling_block.*'
       - '[console] lp user %player_name% permission set libsdisguises.candisguise.grass_block'
       - '[console] points take %player_name% 450'
-      - '[message] &e&lThank you! &6| &bYou have bought the Grass Block Morph for 450!'
+      - '[message] &e&lThank you! &6| &bYou have bought the &3Grass Block Morph &bfor &3450&b!'
       - '[close]'
 
   'Frog':
@@ -81,12 +81,12 @@ items:
             type: javascript
             expression: '%playerpoints_points% >= 450'
             deny_commands:
-            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/450)'
             - '[close]'
     left_click_commands:
       - '[console] lp user %player_name% permission set libsdisguises.disguise.frog.*'
       - '[console] points take %player_name% 450'
-      - '[message] &e&lThank you! &6| &bYou have bought the Frog Morph for &3450!'
+      - '[message] &e&lThank you! &6| &bYou have bought the &3Frog Morph &bfor &3450!'
       - '[close]'
 
   'Bee Morph':
@@ -110,12 +110,12 @@ items:
             type: javascript
             expression: '%playerpoints_points% >= 450'
             deny_commands:
-            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/450)'
             - '[close]'
     left_click_commands:
       - '[console] lp user %player_name% permission set libsdisguises.disguise.bee.*'
       - '[console] points take %player_name% 450'
-      - '[message] &e&lThank you! &6| &bYou have bought the Bee Morph for 450!'
+      - '[message] &e&lThank you! &6| &bYou have bought the &3Bee Morph &bfor &3450&b!'
       - '[close]'
 
   'allay morph':
@@ -139,12 +139,12 @@ items:
             type: javascript
             expression: '%playerpoints_points% >= 450'
             deny_commands:
-            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/450)'
             - '[close]'
     left_click_commands:
       - '[console] lp user %player_name% permission set libsdisguises.disguise.allay.*'
       - '[console] points take %player_name% 450'
-      - '[message] &e&lThank you! &6| &bYou have bought the Allay Morph for 450!'
+      - '[message] &e&lThank you! &6| &bYou have bought the &3Allay Morph &bfor &3450&b!'
       - '[close]'
 
   'zombie morph':
@@ -168,12 +168,12 @@ items:
             type: javascript
             expression: '%playerpoints_points% >= 450'
             deny_commands:
-            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/450)'
             - '[close]'
       left_click_commands:
         - '[console] lp user %player_name% permission set libsdisguises.disguise.zombie.*'
         - '[console] points take %player_name% 450'
-        - '[message] &e&lThank you! &6| &bYou have bought the Zombie Morph for 450!'
+        - '[message] &e&lThank you! &6| &bYou have bought the &3Zombie Morph &bfor &3450&b!'
         - '[close]'
         
   'skeleton morph':
@@ -197,11 +197,11 @@ items:
             type: javascript
             expression: '%playerpoints_points% >= 450'
             deny_commands:
-            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/450)'
             - '[close]'
       left_click_commands:
         - '[console] lp user %player_name% permission set libsdisguises.disguise.skeleton.*'
         - '[console] points take %player_name% 450'
-        - '[message] &e&lThank you! &6| &bYou have bought the Skeleton Morph for 450!'
+        - '[message] &e&lThank you! &6| &bYou have bought the &3Skeleton Morph &bfor &3450&b!'
         - '[close]'
         
