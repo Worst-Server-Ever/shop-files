@@ -1,0 +1,184 @@
+menu_title: '&b&lMount menu'
+open_command: 'mount'
+size: 36
+update: true
+items:
+  "exit-menu":
+    material: hdb-9111
+    display_name: "&c&lBack"
+    slot: 35
+    lore:
+      - '&3&lLeft click &bto go to previous menu'
+    left_click_commands:
+      - "[player] shop"
+
+  'info-item':
+    material: hdb-5654
+    display_name: '&eHow many points you have!'
+    slot: 4
+    update: true
+    lore:
+      - '&bYou have (&3&l%playerpoints_points% &bPoints)'
+      - '&byou can buy a variety of'
+      - '&3cosmetics &band &3mobs &bwith points!' 
+      - '&bYou can buy points online at' 
+      - '&3&nshop.worstserverever.com'
+      - '&bOr you can earn points by'
+      - '&3completing quests &band &3killing bosses!'
+    left_click_commands:
+      - "[message] &eClick to open the site &6| &3&nShop.Worstserverever.com"
+      - "[close]"
+
+  'Glacial Steed':
+    material: hdb-1154
+    display_name: '&e&lGlacial Steed'
+    slot: 11
+    update: true
+    lore:
+      -  '&bA horse that leaves a trail of snow '
+      -  '&bIcon does &lnot &brepresent horse variety'
+      -  ' &3500&b &b&bpoints'
+      -  '  '
+      -  '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.mounts.glacialsteed
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 500'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/500)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.mounts.glacialsteed'
+      - '[console] points take %player_name% 500'
+      - '[message] &e&lThank you! &6| &bYou have bought the glacial steed for &3500&b!'
+      - '[close]'
+
+  'Mount of Fire':
+    material: hdb-2912
+    display_name: '&e&lMount of Fire'
+    slot: 21
+    update: true
+    lore:
+      -  '&bA horse that leaves a trail of "fire"'
+      -  '&bIcon does &lnot &brepresent horse variety'
+      -  ' &3500 &bpoints'
+      - '  '
+      -  '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.mounts.mountoffire
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 500'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/500)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.mounts.mountoffire'
+      - '[console] points take %player_name% 500'
+      - '[message] &e&lThank you! &6| &bYou have bought the mount of fire for &3500&b!'
+      - '[close]'
+
+  'Mount of Water':
+    material: hdb-3919
+    display_name: '&e&lMount of Water'
+    slot: 13
+    update: true
+    lore:
+      -  '&bA horse that leaves a trail of "water"'
+      -  '&bIcon does &lnot &brepresent horse variety'
+      -  ' &3500 &bpoints'
+      - '  '
+      -  '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.mounts.mountofwater
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 500'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/500)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.mounts.mountofwater'
+      - '[console] points take %player_name% 500'
+      - '[message] &e&lThank you! &6| &bYou have bought the mount of water for &3500&b!'
+      - '[close]'
+
+  'Ecologist Horse':
+    material: hdb-3920
+    display_name: '&e&lEcologist Horse'
+    slot: 15
+    update: true
+    lore:
+      -  '&bA horse that leaves a trail of green'
+      -  '&bIcon does &lnot &brepresent horse variety'
+      -  ' &3500 &bpoints'
+      - '  '
+      -  '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.mounts.ecologisthorse
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 500'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/500)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.mounts.ecologisthorse'
+      - '[console] points take %player_name% 500'
+      - '[message] &e&lThank you! &6| &bYou have bought the ecologist horse for &3500&b!'
+      - '[close]'
+
+  'Slime':
+    material: hdb-52304
+    display_name: '&e&lSlime Mount'
+    slot: 23
+    update: true
+    lore:
+      -  '&bIts a slime mount'
+      -  ' &3500 &bpoints'
+      - '  '
+      -  '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.mount.slime
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 500'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/500)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.mount.slime'
+      - '[console] points take %player_name% 500'
+      - '[message] &e&lThank you! &6| &bYou have bought the slime mount for &3500&b!'
+      - '[close]'

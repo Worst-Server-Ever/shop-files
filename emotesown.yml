@@ -1,0 +1,394 @@
+menu_title: '&b&lEmote owned'
+open_command: 'emotesown'
+size: 36
+update: true
+items:
+
+  "exit-menu":
+    material: hdb-9111
+    display_name: "&c&lBack"
+    slot: 35
+    lore:
+      - '&3&lLeft click &bto go to previous menu'
+    left_click_commands:
+      - "[player] cosmeticsown"
+
+  'info-item':
+    material: hdb-5654
+    display_name: '&eEmotes you own'
+    slot: 4
+    update: true
+    lore:
+      - '&bShow your &3emotions'
+
+  'scared':
+    material: hdb-523
+    display_name: 'e&lScared'
+    slot: 11
+    update: true
+    lore:
+      - '&bScared emote'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.scared
+    left_click_commands:
+      - '[player] uc toggle hats scared'
+      - '[close]'
+  'noperm1':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lScared emote'
+    lore:
+      - '&bYou do &lnot &bhave permission for this emote!'
+      - ''
+      - '&3&lLeft click &bto go to the emote shop!'
+    left_click_commands:
+      - '[player] emote'
+
+  'Surprised':
+    material: hdb-529
+    display_name: 'e&lSurprised'
+    slot: 12
+    update: true
+    lore:
+      - '&bSurprised emote'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.surprised
+    left_click_commands:
+      - '[player] uc toggle hats surprised'
+      - '[close]'
+  'noperm2':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lSurprised emote'
+    lore:
+      - '&bYou do &lnot &bhave permission for this emote!'
+      - ''
+      - '&3&lLeft click &bto go to the emote shop!'
+    left_click_commands:
+      - '[player] emote'
+
+  'wink':
+    material: hdb-533
+    display_name: 'e&lWink'
+    slot: 13
+    update: true
+    lore:
+      - '&bWink emote'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.wink
+    left_click_commands:
+      - '[player] uc toggle hats wink'
+      - '[close]'
+  'noperm3':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lWink emote'
+    lore:
+      - '&bYou do &lnot &bhave permission for this emote!'
+      - ''
+      - '&3&lLeft click &bto go to the emote shop!'
+    left_click_commands:
+      - '[player] emote'
+
+  'Crying':
+    material: hdb-531
+    display_name: 'e&lCrying'
+    slot: 14
+    update: true
+    lore:
+      - '&bCrying emote'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.crying
+    left_click_commands:
+      - '[player] uc toggle hats crying'
+      - '[close]'
+  'noperm4':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lCrying emote'
+    lore:
+      - '&bYou do &lnot &bhave permission for this emote!'
+      - ''
+      - '&3&lLeft click &bto go to the emote shop!'
+    left_click_commands:
+      - '[player] emote'
+
+  'Angel':
+    material: hdb-524
+    display_name: 'e&lAngel'
+    slot: 15
+    update: true
+    lore:
+      - '&bAngel emote'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.angel
+    left_click_commands:
+      - '[player] uc toggle hats angel'
+      - '[close]'
+  'noperm5':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lAngel emote'
+    lore:
+      - '&bYou do &lnot &bhave permission for this emote!'
+      - ''
+      - '&3&lLeft click &bto go to the emote shop!'
+    left_click_commands:
+      - '[player] emote'
+
+  'big Smile':
+    material: hdb-532
+    display_name: 'e&lBig Smile'
+    slot: 16
+    update: true
+    lore:
+      - '&bBig Smile emote'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.bigsmile
+    left_click_commands:
+      - '[player] uc toggle hats bigsmile'
+      - '[close]'
+  'noperm6':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lBig Smile emote'
+    lore:
+      - '&bYou do &lnot &bhave permission for this emote!'
+      - ''
+      - '&3&lLeft click &bto go to the emote shop!'
+    left_click_commands:
+      - '[player] emote'
+
+  'Cool':
+    material: hdb-528
+    display_name: 'e&lCool'
+    slot:  10
+    update: true
+    lore:
+      - '&bCool emote'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.cool
+    left_click_commands:
+      - '[player] uc toggle hats cool'
+      - '[close]'
+  'noperm7':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lCool emote'
+    lore:
+      - '&bYou do &lnot &bhave permission for this emote!'
+      - ''
+      - '&3&lLeft click &bto go to the emote shop!'
+    left_click_commands:
+      - '[player] emote'
+
+  'Dead':
+    material: hdb-530
+    display_name: 'e&lDead'
+    slot: 24
+    update: true
+    lore:
+      - '&bDead emote'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.dead
+    left_click_commands:
+      - '[player] uc toggle hats dead'
+      - '[close]'
+  'noperm8':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lDead emote'
+    lore:
+      - '&bYou do &lnot &bhave permission for this emote!'
+      - ''
+      - '&3&lLeft click &bto go to the emote shop!'
+    left_click_commands:
+      - '[player] emote'
+
+  'flustered':
+    material: hdb-525
+    display_name: 'e&lFlustered'
+    slot: 20
+    update: true
+    lore:
+      - '&bFlustered emote'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.embarrassed
+    left_click_commands:
+      - '[player] uc toggle hats embarrassed'
+      - '[close]'
+  'noperm9':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lFlustered emote'
+    lore:
+      - '&bYou do &lnot &bhave permission for this emote!'
+      - ''
+      - '&3&lLeft click &bto go to the emote shop!'
+    left_click_commands:
+      - '[player] emote'
+
+  'Happy':
+    material: hdb-537
+    display_name: 'e&lHappy'
+    slot: 21
+    update: true
+    lore:
+      - '&bHappy emote'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.happy
+    left_click_commands:
+      - '[player] uc toggle hats happy'
+      - '[close]'
+  'noperm10':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lHappy emote'
+    lore:
+      - '&bYou do &lnot &bhave permission for this emote!'
+      - ''
+      - '&3&lLeft click &bto go to the emote shop!'
+    left_click_commands:
+      - '[player] emote'
+
+  'Kissy':
+    material: hdb-526
+    display_name: 'e&lKissy'
+    slot: 22
+    update: true
+    lore:
+      - '&bKissy emote'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.kissy
+    left_click_commands:
+      - '[player] uc toggle hats kissy'
+      - '[close]'
+  'noperm11':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lKissy emote'
+    lore:
+      - '&bYou do &lnot &bhave permission for this emote!'
+      - ''
+      - '&3&lLeft click &bto go to the emote shop!'
+    left_click_commands:
+      - '[player] emote'
+
+  'sad':
+    material: hdb-527
+    display_name: 'e&lSad'
+    slot: 23
+    update: true
+    lore:
+      - '&bSad emote'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.sad
+    left_click_commands:
+      - '[player] uc toggle hats sad'
+      - '[close]'
+  'noperm12':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&Sad emote'
+    lore:
+      - '&bYou do &lnot &bhave permission for this emote!'
+      - ''
+      - '&3&lLeft click &bto go to the emote shop!'
+    left_click_commands:
+      - '[player] emote'

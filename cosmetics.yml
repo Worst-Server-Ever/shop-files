@@ -1,0 +1,67 @@
+menu_title: '&b&lCosmetics menu'
+open_command: 'cosmetics'
+size: 27
+update: true
+
+items:
+  "exit-menu":
+    material: hdb-9111
+    display_name: "&c&lBack"
+    slot: 26
+    lore:
+      - '&3&lLeft click &bto go to previous menu'
+    left_click_commands:
+      - "[player] shop"
+
+  'info-item':
+    material: hdb-5654
+    display_name: '&eHow many points you have!'
+    slot: 4
+    update: true
+    lore:
+      - '&bYou have (&3&l%playerpoints_points% &bPoints)'
+      - '&byou can buy a variety of'
+      - '&3cosmetics &band &3mobs &bwith points!' 
+      - '&bYou can buy points online at' 
+      - '&3&nshop.worstserverever.com'
+      - '&bOr you can earn points by'
+      - '&3completing quests &band &3killing bosses!'
+    left_click_commands:
+      - "[message] &eClick to open the site &6| &3&nShop.Worstserverever.com"
+      - "[close]"
+
+  'Emotes':
+    material: hdb-25582
+    display_name: '&e&lEmoji Faces'
+    slot: 10
+    Lore:
+      - '&3&lLeft click &bto view Emoji Faces'
+    left_click_commands:
+    - '[player] emotes'
+
+  'Hats':
+    material: hdb-4633
+    display_name: '&e&lHats'
+    slot: 12
+    Lore:
+      - '&3&lLeft click &bto view Hats'
+    left_click_commands:
+    - '[player] hats'
+
+  'particles':
+    material: hdb-40194
+    display_name: '&e&lParticle Effects'
+    slot: 14
+    Lore:
+      - '&3&lLeft click &bto view Particle Effects'
+    left_click_commands:
+    - '[player] particles'
+
+  'morphs':
+    material: hdb-53448
+    display_name: '&e&lMorphs'
+    slot: 16
+    Lore:
+      - '&3&lLeft click &bto view Morphs'
+    left_click_commands:
+    - '[player] Morph'

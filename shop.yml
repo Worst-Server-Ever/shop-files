@@ -1,0 +1,89 @@
+menu_title: '&b&lWSE Shop'
+open_command: 'shop'
+size: 27
+update: true
+
+items:
+#Glass items to make pretty UwU
+  'blue-slots':
+    material: BLUE_STAINED_GLASS_PANE
+    display_name: ' '
+    slots: [0, 8,]
+
+  'cyan-slots':
+    material: CYAN_STAINED_GLASS_PANE
+    display_name: ' '
+    slots: [1, 7, 9, 17]
+
+  'light-blue-slots':
+    material: LIGHT_BLUE_STAINED_GLASS_PANE
+    display_name: ' '
+    slots: [2, 6]
+
+  'gray-slots':
+    material: GRAY_STAINED_GLASS_PANE
+    display_name: ' '
+    slots: [3, 5, 18, 26]
+
+#all the buttons
+  'info-item':
+    material: hdb-5654
+    display_name: '&eHow many points you have!'
+    slot: 4
+    update: true
+    lore:
+      - '&bYou have (&3&l%playerpoints_points% &bPoints)'
+      - '&byou can buy a variety of'
+      - '&3cosmetics &band &3mobs &bwith points!' 
+      - '&bYou can buy points online at' 
+      - '&3&nshop.worstserverever.com'
+      - '&bOr you can earn points by'
+      - '&3completing quests &band &3killing bosses!'
+    left_click_commands:
+      - "[message] &eClick to open the site &6| &3&nShop.Worstserverever.com"
+      - "[close]"
+
+  'Packages':
+    material: hdb-37566
+    display_name: '&e&lPackages'
+    slot: 11
+    lore:
+      - '&3&lLeft click &bto open &3Packages'
+    left_click_commands:
+      - '[player] packages'
+
+  'Pets':
+    material: hdb-3216
+    display_name: '&e&lPets'
+    slot: 21
+    lore:
+      - '&3&lLeft click &bto open &3Pets'
+    left_click_commands:
+      - '[player] pet'
+
+  'Mounts':
+    material: hdb-45778
+    display_name: '&e&lMounts'
+    slot: 13
+    lore:
+      - '&3&lLeft click &bto open &3Mounts'
+    left_click_commands:
+      - '[player] mount'
+
+  'Cosmetics':
+    material: hdb-53382
+    display_name: '&e&lCosmetics'
+    slot: 15
+    lore:
+      - '&3&lLeft click &bto open &3Cosmetics'
+    left_click_commands:
+      - '[player] cosmetics'
+
+  'Limited time items':
+    material: hdb-47475
+    display_name: '&e&lLimited Time'
+    slot: 23
+    lore:
+      - '&3&lLeft click &bto open &3Limited Time'
+    left_click_commands:
+      - '[player] free'

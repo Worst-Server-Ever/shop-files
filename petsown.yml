@@ -1,0 +1,190 @@
+menu_title: '&b&lPet Menu'
+open_command: 'petown'
+size: 36
+update: true
+
+items:
+  "exit-menu":
+    material: hdb-9111
+    display_name: "&c&lBack"
+    slot: 35
+    lore:
+      - '&3&lLeft click &bto go to previous menu'
+    left_click_commands:
+      - "[player] equip"
+
+  'info-item':
+    material: hdb-5654
+    display_name: '&ePets you own!'
+    slot: 4
+    update: true
+    lore:
+      - '&bEquip  your'
+      - '&bCute cute &3Pets'
+
+
+  'Panda':
+    material: hdb-49671
+    display_name: '&e&lPanda pet'
+    slot: 11
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bPanda Pet'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.pets.panda
+    left_click_commands:
+      - '[player] uc toggle pets panda'
+      - '[close]'
+  'noperm1':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lpanda Pet'
+    lore:
+      - '&bYou do &lnot &bhave permission for this pet!'
+      - ''
+      - '&3&lLeft click &bto go to the pet shop!'
+    left_click_commands:
+      - '[player] pet'
+
+  'Fox':
+    material: hdb-33923
+    display_name: '&e&lFox pet'
+    slot: 21
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bFox Pet'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.pets.fox
+    left_click_commands:
+      - '[player] uc toggle pets fox'
+      - '[close]'
+  'noperm2':
+    material: GRAY_DYE
+    slot: 21
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lFox Pet'
+    lore:
+      - '&bYou do &lnot &bhave permission for this pet!'
+      - ''
+      - '&3&lLeft click &bto go to the pet shop!'
+    left_click_commands:
+      - '[player] pet'
+
+
+  'Snow golem':
+    material: hdb-4378
+    display_name: '&e&lSnow Golem pet'
+    slot: 13
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bSnow Golem Pet'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.pets.snowgolem
+    left_click_commands:
+      - '[player] uc toggle pets snow golem'
+      - '[close]'
+  'noperm3':
+    material: GRAY_DYE
+    slot: 13
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lSnow golem Pet'
+    lore:
+      - '&bYou do &lnot &bhave permission for this pet!'
+      - ''
+      - '&3&lLeft click &bto go to the pet shop!'
+    left_click_commands:
+      - '[player] pet'
+
+  'Axolotl':
+    material: hdb-49910
+    display_name: '&e&lAxolotl pet'
+    slot: 15
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bAxolotl Pet'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.pets.axolotl
+    left_click_commands:
+      - '[player] uc toggle pets axolotl'
+      - '[close]'
+  'noperm4':
+    material: GRAY_DYE
+    slot: 15
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lAxolotl Pet'
+    lore:
+      - '&bYou do &lnot &bhave permission for this pet!'
+      - ''
+      - '&3&lLeft click &bto go to the pet shop!'
+    left_click_commands:
+      - '[player] pet'
+
+  'Blaze':
+    material: hdb-322
+    display_name: '&e&lBlaze pet'
+    slot: 23
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bBlaze Pet'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.pets.blaze
+    left_click_commands:
+      - '[player] uc toggle pets blaze'
+      - '[close]'
+  'noperm5':
+    material: GRAY_DYE
+    slot: 23
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lBlaze Pet'
+    lore:
+      - '&bYou do &lnot &bhave permission for this pet!'
+      - ''
+      - '&3&lLeft click &bto go to the pet shop!'
+    left_click_commands:
+      - '[player] pet'

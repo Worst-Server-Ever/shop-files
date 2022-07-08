@@ -1,0 +1,302 @@
+menu_title: '&b&lMorph Menu'
+open_command: 'morphown'
+size: 36
+update: true
+
+items:
+  "exit-menu":
+    material: hdb-9111
+    display_name: "&c&lBack"
+    slot: 35
+    lore:
+      - '&3&lLeft click &bto go to previous menu'
+    left_click_commands:
+      - "[player] equip"
+
+  'info-item':
+    material: hdb-5654
+    display_name: '&eMorphs you own!'
+    slot: 4
+    update: true
+    lore:
+      - '&bturn into'
+      - '&bSpooky &3Mobs'
+
+
+  'grass block morph':
+    material: hdb-24064
+    display_name: '&e&lGrass Block Morph'
+    slot: 11
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bGrass Block Morph'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: libsdisguises.candisguise.grass_block
+    left_click_commands:
+      - '[player] disguise Falling_Block GRASS_BLOCK setDynamicName'
+      - '[close]'
+  'noperm1':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lGrass Block Morph'
+    lore:
+      - '&bYou do &lnot &bhave permission for this morph!'
+      - ''
+      - '&3&lLeft click &bto go to the morph shop!'
+    left_click_commands:
+      - '[player] morph'
+
+  'Frog Morph':
+    material: hdb-51343
+    display_name: '&e&lFrog Morph'
+    slot: 21
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bFrog Morph'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: libsdisguises.disguise.frog.*
+    left_click_commands:
+      - '[player] disguise Frog setDynamicName'
+      - '[close]'
+  'noperm2':
+    material: GRAY_DYE
+    slot: 21
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lFox Pet'
+    lore:
+     - '&bYou do &lnot &bhave permission for this morph!'
+     - ''
+     - '&3&lLeft click &bto go to the morph shop!'
+    left_click_commands:
+     - '[player] morph'
+
+
+  'Bee Morph':
+    material: hdb-31264
+    display_name: '&e&lBee Morph'
+    slot: 13
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bBee Morph'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: libsdisguises.disguise.bee.*
+    left_click_commands:
+      - '[player] disguise Bee setDynamicName'
+      - '[close]'
+  'noperm3':
+    material: GRAY_DYE
+    slot: 13
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lBee Morph'
+    lore:
+     - '&bYou do &lnot &bhave permission for this morph!'
+     - ''
+     - '&3&lLeft click &bto go to the morph shop!'
+    left_click_commands:
+    - '[player] morph'
+  
+  
+  'allay morph':
+    material: hdb-51477
+    display_name: '&e&lAllay Morph'
+    slot: 15
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bAllay Morph'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: libsdisguises.disguise.allay.*
+    left_click_commands:
+      - '[player] disguise Allay setDynamicName'
+      - '[close]'
+  'noperm5':
+    material: GRAY_DYE
+    slot: 15
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lAllay Morph'
+    lore:
+     - '&bYou do &lnot &bhave permission for this morph!'
+     - ''
+     - '&3&lLeft click &bto go to the morph shop!'
+    left_click_commands:
+     - '[player] morph'
+     
+    
+  'zombie morph':
+    material: zombie_head
+    display_name: '&e&lZombie Morph'
+    slot: 23
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bZombie Morph'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: libsdisguises.disguise.zombie.*
+    left_click_commands:
+      - '[player] disguise Zombie setDynamicName'
+      - '[close]'
+  'noperm6  ':
+    material: GRAY_DYE
+    slot: 23
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lZombie Morph'
+    lore:
+     - '&bYou do &lnot &bhave permission for this morph!'
+     - ''
+     - '&3&lLeft click &bto go to the morph shop!'
+    left_click_commands:
+      - '[player] morph'
+     
+    
+  'skeleton morph':
+    material: skeleton_skull
+    display_name: '&e&lSkeleton Morph'
+    slot: 31
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bSkeleton Morph'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: libsdisguises.disguise.skeleton.*
+    left_click_commands:
+      - '[player] disguise Skeleton setDynamicName'
+      - '[close]'
+  'noperm4':
+    material: GRAY_DYE
+    slot: 31
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lSkeleton Morph'
+    lore:
+     - '&bYou do &lnot &bhave permission for this morph!'
+     - ''
+     - '&3&lLeft click &bto go to the morph shop!'
+    left_click_commands:
+     - '[player] morph'
+
+
+  'fireset':
+    material: hdb-20038
+    display_name: '&e&lfire'
+    slot: 2
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bset your morph on fire'
+      - '&b&omay not work on all morphs'
+      - '&3&lLeft click &bTo Activate'
+    left_click_commands:
+      - '[player] disguisemodify setBurning true'
+      - '[close]'
+      
+  'babyset':
+    material: hdb-29364
+    display_name: '&e&lBaby'
+    slot: 6
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bturn your morph into its baby form'
+      - '&b&omay not work on all morphs'
+      - '&3&lLeft click &bTo Activate'
+    left_click_commands:
+      - '[player] disguisemodify setBaby true'
+      - '[close]'
+      
+  'upsidedownset':
+    material: hdb-9227
+    display_name: '&e&lUpsideDown'
+    slot: 8
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bmake your morph UpsideDown'
+      - '&b&omay not work on all morphs'
+      - '&3&lLeft click &bTo Activate'
+    left_click_commands:
+      - '[player] disguisemodify setUpsideDown true'
+      - '[close]'
+      
+  'removemorph':
+    material: hdb-24494
+    display_name: '&e&lRemove Morph'
+    slot: 0
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bRemove your morph'
+      - ''
+      - '&3&lLeft click &bTo Activate'
+    left_click_commands:
+      - '[player] undisguise'
+      - '[close]'
+      
+  'visibility toggle':
+    material: hdb-35645
+    display_name: '&e&lToggle self visibility'
+    slot: 27
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bToggle the ability to see your own morph'
+      - '&b&omorphs the same size as you are always invisible'
+      - '&3&lLeft click &bTo Activate'
+    left_click_commands:
+      - '[player] disguiseviewself'
+      - '[close]'

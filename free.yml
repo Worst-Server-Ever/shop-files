@@ -1,0 +1,96 @@
+menu_title: '&b&lFree menu'
+open_command: 'free'
+size: 27
+update: true
+
+items:
+  "exit-menu":
+    material: hdb-9111
+    display_name: "&c&lBack"
+    slot: 26
+    lore:
+      - '&3&lLeft click &bto go to previous menu'
+    left_click_commands:
+      - "[player] shop"
+
+  'info-item':
+    material: hdb-5654
+    display_name: '&eHow to claim freebies!'
+    slot: 4
+    update: true
+    lore:
+      - '&bThere are &lno &bfreebies for now'
+      - '&bjoin the discord for'
+      - '&3giveaway &bannouncements'
+      - '&bJoin at &3&nDiscord.Worstserverever.com'
+    left_click_commands:
+      - "[message] &eClick to join the Discord &6| &3&nDiscord.Worstserverever.com"
+      - "[close]"
+
+  'froggy':
+    material: hdb-50216
+    display_name: '&e&lFroggy'
+    slot: 13
+    update: true
+    lore:
+      -  ' &3FREE'
+      - '  '
+      -  '&3&lLeft click &bto claim'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: playerparticles.groups.froggy
+            deny_commands:
+            - '[message] &c&lOppsies &6| &bYou already own this item!'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set playerparticles.groups.froggy'
+      - '[message] &e&lThank you! &7| &bYou have claimed your free froggy particle!'
+      - '[close]'
+
+  'Parrot':
+    material: hdb-349
+    display_name: '&e&lParrot pet'
+    slot: 11
+    update: true
+    lore:
+      - ' &3FREE'
+      - '  '
+      - '&3&lLeft click &bto claim'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.pets.parrot
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.pets.parrot'
+      - '[message] &e&lThank you! &6| &bYou have claimed your free parrot!'
+      - '[close]'
+
+  'jarooldic':
+    material: hdb-1697
+    display_name: '&e&lJarool Disciple tag'
+    slot: 15
+    update: true
+    lore:
+      - ' &3FREE'
+      - '  '
+      - '&3&lLeft click &bto claim'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: deluxetags.tags.jarool disciple
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% group add Jarool Disciple'
+      - '[message] &e&lThank you! &6| &bYou have claimed your free parrot!'
+      - '[close]'
+
+

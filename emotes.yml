@@ -1,0 +1,379 @@
+menu_title: '&b&lemote menu'
+open_command: 'emotes'
+size: 36
+update: true
+items:
+
+  "exit-menu":
+    material: hdb-9111
+    display_name: "&c&lBack"
+    slot: 35
+    lore:
+      - '&3&lLeft click &bto go to previous menu'
+    left_click_commands:
+      - "[player] cosmetics"
+
+  'info-item':
+    material: hdb-5654
+    display_name: '&eHow many points you have!'
+    slot: 4
+    update: true
+    lore:
+      - '&bYou have (&3&l%playerpoints_points% &bPoints)'
+      - '&byou can buy a variety of'
+      - '&3cosmetics &band &3mobs &bwith points!' 
+      - '&bYou can buy points online at' 
+      - '&3&nshop.worstserverever.com'
+      - '&bOr you can earn points by'
+      - '&3completing quests &band &3killing bosses!'
+    left_click_commands:
+      - "[message] &eClick to open the site &6| &3&nShop.Worstserverever.com"
+      - "[close]"
+
+  'scared':
+    material: hdb-523
+    display_name: '&e&lScared'
+    slot: 11
+    update: true
+    lore:
+      - ' &3250 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.hats.scared
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 250'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.hats.scared'
+      - '[console] points take %player_name% 250'
+      - '[message] &e&lThank you! &6| &bYou have bought the scared emote for &3250&b!'
+      - '[close]'
+
+  'Surprised':
+    material: hdb-529
+    display_name: '&e&lSurprised'
+    slot: 12
+    update: true
+    lore:
+      - ' &3250 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.hats.surprised
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 250'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.hats.surprised'
+      - '[console] points take %player_name% 250'
+      - '[message] &#75E6DA&lThank you! &7| &fYou have bought the surprised emote for 250!'
+      - '[close]'
+
+  'wink':
+    material: hdb-533
+    display_name: '&e&lWink'
+    slot: 13
+    update: true
+    lore:
+      - ' &3250 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.hats.wink
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 250'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.hats.wink'
+      - '[console] points take %player_name% 250'
+      - '[message] &#75E6DA&lThank you! &7| &fYou have bought the wink emote for 250!'
+      - '[close]'
+
+  'Crying':
+    material: hdb-531
+    display_name: '&e&lCrying'
+    slot: 14
+    update: true
+    lore:
+      - ' &3250 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.hats.crying
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 250'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.hats.crying'
+      - '[console] points take %player_name% 250'
+      - '[message] &#75E6DA&lThank you! &7| &fYou have bought the crying emote for 250!'
+      - '[close]'
+
+  'Angel':
+    material: hdb-524
+    display_name: '&e&lAngel'
+    slot: 15
+    update: true
+    lore:
+      - ' &3250 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.hats.angel
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 250'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.hats.angel'
+      - '[console] points take %player_name% 250'
+      - '[message] &#75E6DA&lThank you! &7| &fYou have bought the angel for 250!'
+      - '[close]'
+
+  'big Smile':
+    material: hdb-532
+    display_name: '&e&lBig Smile'
+    slot: 16
+    update: true
+    lore:
+      - ' &3250 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.hats.bigsmile
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 250'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.hats.bigsmile'
+      - '[console] points take %player_name% 250'
+      - '[message] &#75E6DA&lThank you! &7| &fYou have bought the big smile emote for 250!'
+      - '[close]'
+
+  'Cool':
+    material: hdb-528
+    display_name: '&e&lCool'
+    slot:  10
+    update: true
+    lore:
+      - ' &3250 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.hats.cool
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 250'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.hats.cool'
+      - '[console] points take %player_name% 250'
+      - '[message] &#75E6DA&lThank you! &7| &fYou have bought the cool emote for 250!'
+      - '[close]'
+
+  'Dead':
+    material: hdb-530
+    display_name: '&e&lDead'
+    slot: 24
+    update: true
+    lore:
+      - ' &3250 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.hats.dead
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 250'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.hats.dead'
+      - '[console] points take %player_name% 250'
+      - '[message] &#75E6DA&lThank you! &7| &fYou have bought the dead emote for 250!'
+      - '[close]'
+
+  'flustered':
+    material: hdb-525
+    display_name: '&e&lFlustered'
+    slot: 20
+    update: true
+    lore:
+      - ' &3250 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.hats.embarassed
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 250'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.hats.embarassed'
+      - '[console] points take %player_name% 250'
+      - '[message] &#75E6DA&lThank you! &7| &fYou have bought the flustered emote for 250!'
+      - '[close]'
+
+  'Happy':
+    material: hdb-537
+    display_name: '&e&lHappy'
+    slot: 21
+    update: true
+    lore:
+      - ' &3250 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.hats.smile
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 250'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.hats.smile'
+      - '[console] points take %player_name% 250'
+      - '[message] &#75E6DA&lThank you! &7| &fYou have bought the happy emote for 250!'
+      - '[close]'
+
+  'Kissy':
+    material: hdb-526
+    display_name: '&e&lKissy'
+    slot: 22
+    update: true
+    lore:
+      - ' &3250 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.hats.kissy
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 250'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.hats.Kissy'
+      - '[console] points take %player_name% 250'
+      - '[message] &#75E6DA&lThank you! &7| &fYou have bought the Kissy emote for 250!'
+      - '[close]'
+
+  'sad':
+    material: hdb-527
+    display_name: '&e&lSad'
+    slot: 23
+    update: true
+    lore:
+      - ' &3250 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.hats.sad
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 250'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.hats.sad'
+      - '[console] points take %player_name% 250'
+      - '[message] &#75E6DA&lThank you! &7| &fYou have bought the sad emote for 250!'
+      - '[close]'

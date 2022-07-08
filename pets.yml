@@ -1,0 +1,183 @@
+menu_title: '&b&lPet menu'
+open_command: 'pet'
+size: 36
+update: true
+
+items:
+  "exit-menu":
+    material: hdb-9111
+    display_name: "&c&lBack"
+    slot: 35
+    lore:
+      - '&3&lLeft click &bto go to previous menu'
+    left_click_commands:
+      - "[player] shop"
+
+  'info-item':
+    material: hdb-5654
+    display_name: '&eHow many points you have!'
+    slot: 4
+    update: true
+    lore:
+      - '&bYou have (&3&l%playerpoints_points% &bPoints)'
+      - '&byou can buy a variety of'
+      - '&3cosmetics &band &3mobs &bwith points!' 
+      - '&bYou can buy points online at' 
+      - '&3&nshop.worstserverever.com'
+      - '&bOr you can earn points by'
+      - '&3completing quests &band &3killing bosses!'
+    left_click_commands:
+      - "[message] &eClick to open the site &6| &3&nShop.Worstserverever.com"
+      - "[close]"
+
+  'extra-info':
+   material: hdb-9128
+   display_name: '&eInfo'
+   slot: 27
+   lore:
+      - '&bCute pets that follow you around'
+      
+  'Panda':
+    material: hdb-49671
+    display_name: '&e&lPanda pet'
+    slot: 11
+    update: true
+    lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.pet.panda
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.pet.panda'
+      - '[console] points take %player_name% 450'
+      - '[message] &e&lThank you! &6| &bYou have bought the Panda pet for 450!'
+      - '[close]'
+
+  'Fox':
+    material: hdb-33923
+    display_name: '&e&lFox pet'
+    slot: 21
+    update: true
+    lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.pet.fox
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.pet.fox'
+      - '[console] points take %player_name% 450'
+      - '[message] &e&lThank you! &6| &bYou have bought the Fox pet for &3450!'
+      - '[close]'
+
+  'Snow golem':
+    material: hdb-4378
+    display_name: '&e&lSnow Golem pet'
+    slot: 13
+    update: true
+    lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'  
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.pet.snowgolem
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.pet.Snowgolem'
+      - '[console] points take %player_name% 450'
+      - '[message] &e&lThank you! &6| &bYou have bought the Snow Golem pet for 450!'
+      - '[close]'
+
+  'axolotl':
+    material: hdb-49910
+    display_name: '&e&lAxolotl pet'
+    slot: 15
+    update: true
+    lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.pet.axolotl
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set ultracosmetics.pet.Axolotl'
+      - '[console] points take %player_name% 450'
+      - '[message] &e&lThank you! &6| &bYou have bought the Axolotl pet for 450!'
+      - '[close]'
+
+  'Blaze':
+      material: hdb-322
+      display_name: '&e&lBlaze pet'
+      slot: 23
+      update: true
+      lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+      left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.pet.Blaze
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+      left_click_commands:
+        - '[console] lp user %player_name% permission set ultracosmetics.pet.Blaze'
+        - '[console] points take %player_name% 450'
+        - '[message] &e&lThank you! &6| &bYou have bought the Blaze pet for 450!'
+        - '[close]'

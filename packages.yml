@@ -1,0 +1,128 @@
+menu_title: "&b&lPackages Menu"
+open_command: "packages"
+size: 27
+update: true
+items:
+  "exit-menu":
+    material: hdb-9111
+    display_name: "&c&lBack"
+    slot: 26
+    lore:
+      - '&3&lLeft click &bto go to previous menu'
+    left_click_commands:
+      - "[player] shop"
+
+  'info-item':
+    material: hdb-5654
+    display_name: '&eHow many points you have!'
+    slot: 4
+    update: true
+    lore:
+      - '&bYou have (&3&l%playerpoints_points% &bPoints)'
+      - '&byou can buy a variety of'
+      - '&3cosmetics &band &3mobs &bwith points!' 
+      - '&bYou can buy points online at' 
+      - '&3&nshop.worstserverever.com'
+      - '&bOr you can earn points by'
+      - '&3completing quests &band &3killing bosses!'
+    left_click_commands:
+      - "[message] &eClick to open the site &6| &3&nShop.Worstserverever.com"
+      - "[close]"
+
+#the ranks
+  "Donator":
+    material: hdb-31735
+    display_name: "&e&lDonator"
+    slot: 11
+    lore:
+      - " &3&lRecive"
+      - " &3Donator &btag in-game"
+      - " &bAccess to Supporters lounge and role in discord"
+      - " &bAccess to &3/hat &band riding players with &3/ride"
+      - " &bSet up to &3&l4 &3homes &bin survival"
+      - " &bFly in the hub"
+      - "  "
+      - "&3&lLeft click &bto buy"
+    left_click_requirement:
+      requirements:
+        has_permission:
+          type: "!has permission"
+          permission: group.donator
+          deny_commands:
+            - "[message] &c&lOopsies &6| &bYou already own this item!"
+            - "[close]"
+        has_points:
+          type: javascript
+          expression: "%playerpoints_points% >= 100"
+          deny_commands:
+            - "[message] &c&lOopsies &6| &bYou do &b&lnot &bhave enough &3points &bto do this!, you have &3(%playerpoints_points%/100)"
+            - "[close]"
+    left_click_commands:
+      - "[console] lp user %player_name% group add donator"
+      - "[console] points take %player_name% 100"
+      - "[message] &e&lThank you! &6| &bYou have bought the &3donator rank &bfor &3100 &bpoints!"
+      - "[close]"
+
+
+  "420 haha":
+    material: hdb-38149
+    display_name: "&e&l420 haha"
+    slot: 13
+    lore:
+      - " &3&lRecive"
+      - " &3donator &bperks plus the following"
+      - " &3420 haha &btag in-game"
+      - " &bSet up to &3&l5 &3homes &bin survival"
+      - "  "
+      - "&3&lLeft click &bto buy"
+    left_click_requirement:
+      requirements:
+        has_permission:
+          type: "!has permission"
+          permission: group.420-dono
+          deny_commands:
+            - "[message] &c&lOopsies &6| &bYou already own this item!"
+            - "[close]"
+        has_points:
+          type: javascript
+          expression: "%playerpoints_points% >= 420"
+          deny_commands:
+            - "[message] &c&lOopsies &6| &bYou do &b&lnot &bhave enough &3points &bto do this!, you have &3(%playerpoints_points%/420)"
+            - "[close]"
+    left_click_commands:
+      - "[console] lp user %player_name% group add 420-dono"
+      - "[console] points take %player_name% 420"
+      - "[message] &e&lThank you! &6| &bYou have bought the &3420 haha rank &bfor &3420 &bpoints!"
+      - "[close]"
+
+
+  "uwu role":
+    material: hdb-37337
+    display_name: "&e&lUwU"
+    slot: 15
+    lore:
+      - " &3&lRecive"
+      - " &3donator &band &3420 haha &bperks plus the following"
+      - " &3UwU &btag in-game"
+      - " &bSet up to &3&l6 &3homes &bin survival"
+      - "  "
+      - "&3&lLeft click &bto buy"
+    left_click_requirement:
+      requirements:
+        has_permission:
+          type: "!has permission"
+          permission: group.UwU
+          deny_commands:
+            - "[message] &c&lOopsies &6| &bYou already own this item!"
+            - "[close]"
+        has_points:
+          type: javascript
+          expression: "%playerpoints_points% >= 1000"
+          deny_commands:
+            - "[message] &c&lOopsies &6| &bYou do &b&lnot &bhave enough &3points &bto do this!, you have &3(%playerpoints_points%/1000)"
+            - "[close]"
+    left_click_commands:
+      - "[console] lp user %player_name% group add uwu"
+      - "[console] points take %player_name% 1000"
+      - "[message] &e&lThank you! &6| &bYou have bought UwU rank for &31000 &bpoints!"
+      - "[close]"

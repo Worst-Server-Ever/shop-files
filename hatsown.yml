@@ -1,0 +1,116 @@
+menu_title: 'hat menu'
+open_command: 'hatsown'
+size: 36
+update: true
+
+items:
+  "exit-menu":
+    material: hdb-9111
+    display_name: "&c&lBack"
+    slot: 35
+    lore:
+      - '&3&lLeft click &bto go to previous menu'
+    left_click_commands:
+      - "[player] cosmeticsown"
+
+  'info-item':
+    material: hdb-5654
+    display_name: '&eHats you own!'
+    slot: 4
+    update: true
+    lore:
+      - '&bEquip  your'
+      - '&bCool &3Hats'
+
+  'astronaut':
+    material: hdb-4633
+    display_name: '&rAstronaut'
+    slot: 11
+    update: true
+    lore:
+      - '&bAstronaut hat'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.astronaut
+    left_click_commands:
+      - '[player] uc toggle hats astronaut'
+      - '[close]'
+  'noperm1':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&Astronaut hat'
+    lore:
+      - '&bYou do &lnot &bhave permission for this hat!'
+      - ''
+      - '&3&lLeft click &bto go to the hat shop!'
+    left_click_commands:
+      - '[player] hats'
+
+  'squid':
+    material: hdb-338
+    display_name: '&rSquid'
+    slot: 13
+    update: true
+    lore:
+      - '&bSquid hat'
+      - ''
+      - '&3*lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.squid
+    left_click_commands:
+      - '[player] uc toggle hats squid'
+      - '[close]'
+  'noperm2':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&Squid hat'
+    lore:
+      - '&bYou do &lnot &bhave permission for this hat!'
+      - ''
+      - '&3&lLeft click &bto go to the hat shop!'
+    left_click_commands:
+      - '[player] hats'
+
+  'cheese':
+    material: hdb-17267
+    display_name: '&rCheese'
+    slot: 15
+    update: true
+    lore:
+      - '&bCheese hat'
+      - ''
+      - '&3*lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.hats.cheese
+    left_click_commands:
+      - '[player] uc toggle hats cheese'
+      - '[close]'
+  'noperm3':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6Cheese hat'
+    lore:
+      - '&bYou do &lnot &bhave permission for this hat!'
+      - ''
+      - '&3&lLeft click &bto go to the hat shop!'
+    left_click_commands:
+      - '[player] hats'

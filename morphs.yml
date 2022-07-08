@@ -1,0 +1,207 @@
+menu_title: '&b&lMorph menu'
+open_command: 'morph'
+size: 36
+update: true
+
+items:
+  "exit-menu":
+    material: hdb-9111
+    display_name: "&c&lBack"
+    slot: 35
+    lore:
+      - '&3&lLeft click &bto go to previous menu'
+    left_click_commands:
+      - "[player] shop"
+
+  'info-item':
+    material: hdb-5654
+    display_name: '&eHow many points you have!'
+    slot: 4
+    update: true
+    lore:
+      - '&bYou have (&3&l%playerpoints_points% &bPoints)'
+      - '&byou can buy a variety of'
+      - '&3cosmetics &band &3mobs &bwith points!' 
+      - '&bYou can buy points online at' 
+      - '&3&nshop.worstserverever.com'
+      - '&bOr you can earn points by'
+      - '&3completing quests &band &3killing bosses!'
+    left_click_commands:
+      - "[message] &eClick to open the site &6| &3&nShop.Worstserverever.com"
+      - "[close]"
+
+  'grassblock':
+    material: hdb-24064
+    display_name: '&e&lGrass Block Morph'
+    slot: 11
+    update: true
+    lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: libsdisguises.candisguise.grass_block
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set libsdisguises.disguise.falling_block.*'
+      - '[console] lp user %player_name% permission set libsdisguises.candisguise.grass_block'
+      - '[console] points take %player_name% 450'
+      - '[message] &e&lThank you! &6| &bYou have bought the Grass Block Morph for 450!'
+      - '[close]'
+
+  'Frog':
+    material: hdb-51343
+    display_name: '&e&lFrog Morph'
+    slot: 21
+    update: true
+    lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: libsdisguises.disguise.frog.*
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set libsdisguises.disguise.frog.*'
+      - '[console] points take %player_name% 450'
+      - '[message] &e&lThank you! &6| &bYou have bought the Frog Morph for &3450!'
+      - '[close]'
+
+  'Bee Morph':
+    material: hdb-31264
+    display_name: '&e&lBee Morph'
+    slot: 13
+    update: true
+    lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'  
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: libsdisguises.disguise.bee.*
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set libsdisguises.disguise.bee.*'
+      - '[console] points take %player_name% 450'
+      - '[message] &e&lThank you! &6| &bYou have bought the Bee Morph for 450!'
+      - '[close]'
+
+  'allay morph':
+    material: hdb-51477
+    display_name: '&e&lAllay Morph'
+    slot: 15
+    update: true
+    lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: libsdisguises.disguise.allay.*
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set libsdisguises.disguise.allay.*'
+      - '[console] points take %player_name% 450'
+      - '[message] &e&lThank you! &6| &bYou have bought the Allay Morph for 450!'
+      - '[close]'
+
+  'zombie morph':
+      material: zombie_head
+      display_name: '&e&lZombie Morph'
+      slot: 23
+      update: true
+      lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+      left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: libsdisguises.disguise.zombie.*
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+      left_click_commands:
+        - '[console] lp user %player_name% permission set libsdisguises.disguise.zombie.*'
+        - '[console] points take %player_name% 450'
+        - '[message] &e&lThank you! &6| &bYou have bought the Zombie Morph for 450!'
+        - '[close]'
+        
+  'skeleton morph':
+      material: skeleton_skull
+      display_name: '&e&lSkeleton Morph'
+      slot: 31
+      update: true
+      lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+      left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: libsdisguises.disguise.skeleton.*
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+      left_click_commands:
+        - '[console] lp user %player_name% permission set libsdisguises.disguise.skeleton.*'
+        - '[console] points take %player_name% 450'
+        - '[message] &e&lThank you! &6| &bYou have bought the Skeleton Morph for 450!'
+        - '[close]'
+        

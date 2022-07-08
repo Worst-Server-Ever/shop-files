@@ -1,0 +1,91 @@
+menu_title: '&b&lparticle menu'
+open_command: 'particlesown'
+size: 36
+update: true
+
+items:
+
+  "exit-menu":
+    material: hdb-9111
+    display_name: "&c&lBack"
+    slot: 35
+    lore:
+      - '&3&lLeft click &bto go to previous menu'
+    left_click_commands:
+      - "[player] cosmeticsown"
+
+  'toggle':
+    material: redstone_torch
+    display_name: '&c&l Turn particles on/off'
+    slot: 26
+    left_click_commands:
+      - "[player] pp toggle"
+
+
+  'froggy':
+    material: hdb-50216
+    display_name: '&6↑ &eFroggy &6↑'
+    slot: 11
+    update: true
+    hide_attributes: true
+    lore:
+      - 'Froggy particle'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: playerparticles.groups.froggy
+    left_click_commands:
+      - '[player] pp reset'
+      - '[player] pp add Bubble Move'
+      - '[player] pp add Falling_Spore_Blossom Trail'
+      - '[close]'
+  'noperm1':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6Froggy particle'
+    lore:
+    - '&bYou do not have permission for this effect!'
+    - ''
+    - '&3&lLeft click &bto go to the partical shop!'
+    left_click_commands:
+    - '[player] particles'
+
+  'rainy_cloud':
+    material: hdb-34467
+    display_name: '&6🌧 &eRainy Cloud &6🌧'
+    slot: 13
+    update: true
+    hide_attributes: true
+    lore:
+    - '&bRainy Cloud particle'
+    - ''
+    - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: playerparticles.groups.rainycloud
+    left_click_commands:
+    - '[player] pp reset'
+    - '[player] pp add Campfire_Cosy_Smoke Overhead'
+    - '[player] pp add Falling_water Overhead'
+    - '[close]'
+  'noperm2':
+    material: GRAY_DYE
+    slot: 13
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6Rainy Cloud particle'
+    lore:
+    - '&bYou do not have permission for this effect!'
+    - ''
+    - '&3&lLeft click &bto go to the partical shop!'
+    left_click_commands:
+    - '[player] particles' 

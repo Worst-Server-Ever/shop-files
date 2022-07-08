@@ -1,0 +1,177 @@
+menu_title: '&e&lMount menu'
+open_command: 'mountown'
+size: 36
+update: true
+items:
+  "exit-menu":
+    material: hdb-9111
+    display_name: "&c&lBack"
+    slot: 35
+    lore:
+      - '&3&lLeft click &bto go to previous menu'
+    left_click_commands:
+      - "[player] equip"
+
+  'info-item':
+    material: hdb-5654
+    display_name: '&eMounts you own!'
+    slot: 4
+    update: true
+    lore:
+      - '&bEquip  your'
+      - '&bAwsome &3Mounts'
+
+  'Glacial Steed':
+    material: hdb-49656
+    display_name: '&3&lGlacial Steed'
+    slot: 11
+    update: true
+    lore:
+      - '&bGlacial Steed'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.mounts.sad
+    left_click_commands:
+      - '[player] uc toggle mounts glacial steed'
+      - '[close]'
+  'noperm':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lGlacial Steed'
+    lore:
+      - '&bYou do not have permission for this mount!'
+      - ''
+      - '&3&lLeft click &bto go to the mount shop!'
+    left_click_commands:
+      - '[player] mount'
+
+  'Mount of Fire':
+    material: hdb-1154
+    display_name: '&3&lMount of Fire'
+    slot: 21
+    update: true
+    lore:
+      - '&bMount of Fire'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.mounts.mountoffire
+    left_click_commands:
+      - '[player] uc toggle mounts mount of fire'
+      - '[close]'
+  'noperm':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lMount of Fire'
+    lore:
+      - '&bYou do not have permission for this mount!'
+      - ''
+      - '&3&lLeft click &bto go to the mount shop!'
+    left_click_commands:
+      - '[player] mount'
+
+  'Mount of Water':
+    material: hdb-3919
+    display_name: '&3&lMount of Water'
+    slot: 13
+    update: true
+    lore:
+      - '&bMount of Water'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.mounts.mountofwater
+    left_click_commands:
+      - '[player] uc toggle mounts mount of water'
+      - '[close]'
+  'noperm':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lMount of Water'
+    lore:
+      - '&bYou do not have permission for this mount!'
+      - ''
+      - '&3&lLeft click &bto go to the mount shop!'
+    left_click_commands:
+      - '[player] mount'
+
+  'Ecologist Horse':
+    material: hdb-3920
+    display_name: '&3&lEcologist Horse'
+    slot: 15
+    update: true
+    lore:
+      - '&bEcologist Horse'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.mounts.ecologisthorse
+    left_click_commands:
+      - '[player] uc toggle mounts ecologist horse'
+      - '[close]'
+  'noperm':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lEcologist Horse'
+    lore:
+      - '&bYou do not have permission for this mount!'
+      - ''
+      - '&3&lLeft click &bto go to the mount shop!'
+    left_click_commands:
+      - '[player] mount'
+
+  'Slime':
+    material: hdb-52304
+    display_name: '&3&lSlime Mount'
+    slot: 23
+    update: true
+    lore:
+      - '&bSlime mount'
+      - ''
+      - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.mounts.slime
+    left_click_commands:
+      - '[player] uc toggle mounts slime'
+      - '[close]'
+  'noperm':
+    material: GRAY_DYE
+    slot: 11
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lSlime mount'
+    lore:
+      - '&bYou do not have permission for this mount!'
+      - ''
+      - '&3&lLeft click &bto go to the mount shop!'
+    left_click_commands:
+      - '[player] mount'
