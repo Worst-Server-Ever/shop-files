@@ -1,5 +1,5 @@
 menu_title: '&b&lMorph Menu'
-open_command: 'morphown'
+open_command: 'morpshown'
 size: 36
 update: true
 
@@ -257,7 +257,7 @@ items:
       - '[close]'
       
   'upsidedownset':
-    material: hdb-9227
+    material: hdb-9119
     display_name: '&e&luʍop ǝpᴉsdn'
     slot: 8
     priority: 1
@@ -272,7 +272,7 @@ items:
       - '[close]'
       
   'removemorph':
-    material: hdb-24494
+    material: hdb-9166
     display_name: '&e&lRemove Morph'
     slot: 0
     priority: 1
