@@ -265,7 +265,7 @@ items:
     hide_attributes: true
     lore:
       - '&bMake your &3Morph upside down'
-      - '&b&omay not work on all &3&Morphs'
+      - '&b&omay not work on all &3Morphs'
       - '&3&lLeft click &bto activate'
     left_click_commands:
       - '[player] disguisemodify setUpsideDown true'
