@@ -235,7 +235,7 @@ items:
     hide_attributes: true
     lore:
       - '&bSet your &3Morph &bon fire'
-      - '&b&oMay not work on all &3morphs'
+      - '&b&oMay not work on all &3&oMorphs'
       - '&3&lLeft click &bto activate'
     left_click_commands:
       - '[player] disguisemodify setBurning true'
@@ -250,7 +250,7 @@ items:
     hide_attributes: true
     lore:
       - '&bTurn your &3Morph into its baby form'
-      - '&b&oMay not work on all &3Morphs'
+      - '&b&oMay not work on all &3&oMorphs'
       - '&3&lLeft click &bto activate'
     left_click_commands:
       - '[player] disguisemodify setBaby true'
@@ -265,7 +265,7 @@ items:
     hide_attributes: true
     lore:
       - '&bMake your &3Morph upside down'
-      - '&b&omay not work on all &3Morphs'
+      - '&b&omay not work on all &3&oMorphs'
       - '&3&lLeft click &bto activate'
     left_click_commands:
       - '[player] disguisemodify setUpsideDown true'
