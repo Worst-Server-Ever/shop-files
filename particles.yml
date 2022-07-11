@@ -29,9 +29,9 @@ items:
       - "[message] &eClick to open the site &6| &3&nShop.Worstserverever.com"
       - "[close]"
 
-  'extra-info'
-   material: hdb-9128
-   display_name: '&eInfo'
-   slot: 27
-   lore:
+  'extra-info':
+    material: hdb-9128
+    display_name: '&eInfo'
+    slot: 27
+    lore:
       - '&bparticle trails and effects'
