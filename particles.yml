@@ -35,3 +35,32 @@ items:
     slot: 27
     lore:
       - '&bparticle trails and effects'
+
+  'rainycloud':
+    material: hdb-34467
+    display_name: '&6🌧 &eRainy Cloud &6🌧'
+    slot: 11
+    update: true
+    lore:
+      -  ' &3250 &bpoints'
+      - '  '
+      -  '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: playerparticles.groups.rainycloud
+            deny_commands:
+            - '[message] &c&lOppsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 250'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_name% permission set playerparticles.groups.rainycloud'
+      - '[console] points take %player_name% 250'
+      - '[message] &e&lThank you! &7| &bYou have bought the &3Rainy Cloud Particel  &bfor &3250&b!'
+      - '[close]'

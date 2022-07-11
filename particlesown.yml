@@ -26,6 +26,7 @@ items:
     material: hdb-50216
     display_name: '&6↑ &eFroggy &6↑'
     slot: 11
+    priority: 1
     update: true
     hide_attributes: true
     lore:
@@ -59,6 +60,7 @@ items:
     material: hdb-34467
     display_name: '&6🌧 &eRainy Cloud &6🌧'
     slot: 13
+    priority: 1
     update: true
     hide_attributes: true
     lore:
