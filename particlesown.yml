@@ -16,7 +16,7 @@ items:
 
   'toggle':
     material: redstone_torch
-    display_name: '&c&l Turn particles on/off'
+    display_name: '&e&lTurn particles &a&Lon&6&l/&c&loff'
     slot: 26
     left_click_commands:
       - "[player] pp toggle"
@@ -39,7 +39,7 @@ items:
           permission: playerparticles.groups.froggy
     left_click_commands:
       - '[player] pp reset'
-      - '[player] /pp group load Froggy'
+      - '[player] pp group load Froggy'
       - '[close]'
   'noperm1':
     material: GRAY_DYE
@@ -72,7 +72,7 @@ items:
           permission: playerparticles.groups.rainycloud
     left_click_commands:
     - '[player] pp reset'
-    - '[player] /pp group load RainyCloud'
+    - '[player] pp group load RainyCloud'
     - '[close]'
   'noperm2':
     material: GRAY_DYE

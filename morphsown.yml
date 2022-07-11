@@ -54,7 +54,7 @@ items:
       - ''
       - '&3&lLeft click &bto go to the &3Morph &bshop!'
     left_click_commands:
-      - '[player] morph'
+      - '[player] morphs'
 
   'Frog Morph':
     material: hdb-51343
@@ -87,7 +87,7 @@ items:
      - ''
      - '&3&lLeft click &bto go to the &3Morph &bshop!'
     left_click_commands:
-     - '[player] morph'
+     - '[player] morphs'
 
 
   'Bee Morph':
@@ -121,7 +121,7 @@ items:
      - ''
      - '&3&lLeft click &bto go to the &3Morph &bshop!'
     left_click_commands:
-    - '[player] morph'
+    - '[player] morphs'
   
   
   'allay morph':
@@ -155,7 +155,7 @@ items:
      - ''
      - '&3&lLeft click &bto go to the &3Morph &bshop!'
     left_click_commands:
-     - '[player] morph'
+     - '[player] morphs'
      
     
   'zombie morph':
@@ -189,7 +189,7 @@ items:
      - ''
      - '&3&lLeft click &bto go to the &3Morph &bshop!'
     left_click_commands:
-      - '[player] morph'
+      - '[player] morphs'
      
     
   'skeleton morph':
@@ -223,7 +223,7 @@ items:
      - ''
      - '&3&lLeft click &bto go to the &3Morph &bshop!'
     left_click_commands:
-     - '[player] morph'
+     - '[player] morphs'
 
 
   'fireset':
