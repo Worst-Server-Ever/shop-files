@@ -39,8 +39,7 @@ items:
           permission: playerparticles.groups.froggy
     left_click_commands:
       - '[player] pp reset'
-      - '[player] pp add Bubble Move'
-      - '[player] pp add Falling_Spore_Blossom Trail'
+      - '[player] /pp group load Froggy'
       - '[close]'
   'noperm1':
     material: GRAY_DYE
@@ -73,8 +72,7 @@ items:
           permission: playerparticles.groups.rainycloud
     left_click_commands:
     - '[player] pp reset'
-    - '[player] pp add Campfire_Cosy_Smoke Overhead'
-    - '[player] pp add Falling_water Overhead'
+    - '[player] /pp group load RainyCloud'
     - '[close]'
   'noperm2':
     material: GRAY_DYE

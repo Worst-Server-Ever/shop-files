@@ -23,7 +23,7 @@ items:
 
   'scared':
     material: hdb-523
-    display_name: 'e&lScared'
+    display_name: '&e&lScared'
     slot: 11
     update: true
     lore:
@@ -54,7 +54,7 @@ items:
 
   'Surprised':
     material: hdb-529
-    display_name: 'e&lSurprised'
+    display_name: '&e&lSurprised'
     slot: 12
     update: true
     lore:
@@ -85,7 +85,7 @@ items:
 
   'wink':
     material: hdb-533
-    display_name: 'e&lWink'
+    display_name: '&e&lWink'
     slot: 13
     update: true
     lore:
@@ -116,7 +116,7 @@ items:
 
   'Crying':
     material: hdb-531
-    display_name: 'e&lCrying'
+    display_name: '&e&lCrying'
     slot: 14
     update: true
     lore:
@@ -147,7 +147,7 @@ items:
 
   'Angel':
     material: hdb-524
-    display_name: 'e&lAngel'
+    display_name: '&e&lAngel'
     slot: 15
     update: true
     lore:
@@ -178,7 +178,7 @@ items:
 
   'big Smile':
     material: hdb-532
-    display_name: 'e&lBig Smile'
+    display_name: '&e&lBig Smile'
     slot: 16
     update: true
     lore:
@@ -209,7 +209,7 @@ items:
 
   'Cool':
     material: hdb-528
-    display_name: 'e&lCool'
+    display_name: '&e&lCool'
     slot:  10
     update: true
     lore:
@@ -240,7 +240,7 @@ items:
 
   'Dead':
     material: hdb-530
-    display_name: 'e&lDead'
+    display_name: '&e&lDead'
     slot: 24
     update: true
     lore:
@@ -271,7 +271,7 @@ items:
 
   'flustered':
     material: hdb-525
-    display_name: 'e&lFlustered'
+    display_name: '&e&lFlustered'
     slot: 20
     update: true
     lore:
@@ -302,7 +302,7 @@ items:
 
   'Happy':
     material: hdb-537
-    display_name: 'e&lHappy'
+    display_name: '&e&lHappy'
     slot: 21
     update: true
     lore:
@@ -333,7 +333,7 @@ items:
 
   'Kissy':
     material: hdb-526
-    display_name: 'e&lKissy'
+    display_name: '&e&lKissy'
     slot: 22
     update: true
     lore:
@@ -364,7 +364,7 @@ items:
 
   'sad':
     material: hdb-527
-    display_name: 'e&lSad'
+    display_name: '&e&lSad'
     slot: 23
     update: true
     lore:
