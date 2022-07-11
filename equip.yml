@@ -14,7 +14,7 @@ items:
       - '&bcan equip your owned items'
       - '&bYou can get these items'
       - '&bin the &3/shop'
-      - '&3&Left click &bto open'
+      - '&3&lLeft click &bto open'
     left_click_commands:
       - '[player] shop'
 
