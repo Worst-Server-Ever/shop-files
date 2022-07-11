@@ -48,7 +48,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6Froggy particle'
+    display_name: '&6Froggy'
     lore:
     - '&bYou do not have permission for this effect!'
     - ''
@@ -82,10 +82,214 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6Rainy Cloud particle'
+    display_name: '&6Rainy Cloud'
     lore:
     - '&bYou do not have permission for this effect!'
     - ''
     - '&3&lLeft click &bto go to the partical shop!'
     left_click_commands:
-    - '[player] particles' 
+    - '[player] particles'
+
+  'sparkles':
+    material: hdb-34467
+    display_name: '&6✦ &eSparkles &6✦'
+    slot: 15
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+    - '&bSparkles particle'
+    - ''
+    - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: playerparticles.groups.sparkles
+    left_click_commands:
+    - '[player] pp reset'
+    - '[player] pp group load Sparkles'
+    - '[close]'
+  'noperm3':
+    material: GRAY_DYE
+    slot: 15
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6Sparkels'
+    lore:
+    - '&bYou do not have permission for this effect!'
+    - ''
+    - '&3&lLeft click &bto go to the partical shop!'
+    left_click_commands:
+    - '[player] particles'
+
+  'buzzybee':
+    material: hdb-34467
+    display_name: '&6ꝏ &eBuzzy Bee &6ꝏ'
+    slot: 17
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+    - '&bBuzzy Bee particle'
+    - ''
+    - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: playerparticles.groups.buzzybee
+    left_click_commands:
+    - '[player] pp reset'
+    - '[player] pp group load BuzzyBee'
+    - '[close]'
+  'noperm4':
+    material: GRAY_DYE
+    slot: 17
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6Buzzy Bee'
+    lore:
+    - '&bYou do not have permission for this effect!'
+    - ''
+    - '&3&lLeft click &bto go to the partical shop!'
+    left_click_commands:
+    - '[player] particles'
+
+  'angel':
+    material: hdb-34467
+    display_name: '&6↓ &eAngel &6↓'
+    slot: 19
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+    - '&bAngel particle'
+    - ''
+    - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: playerparticles.groups.angel
+    left_click_commands:
+    - '[player] pp reset'
+    - '[player] pp group load Angel'
+    - '[close]'
+  'noperm5':
+    material: GRAY_DYE
+    slot: 19
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6Angel'
+    lore:
+    - '&bYou do not have permission for this effect!'
+    - ''
+    - '&3&lLeft click &bto go to the partical shop!'
+    left_click_commands:
+    - '[player] particles'
+
+  'sculk':
+    material: hdb-34467
+    display_name: '&6☠ &eSculk &6☠'
+    slot: 21
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+    - '&bSculk particle'
+    - ''
+    - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: playerparticles.groups.sculk
+    left_click_commands:
+    - '[player] pp reset'
+    - '[player] pp group load Sculk'
+    - '[close]'
+  'noperm6':
+    material: GRAY_DYE
+    slot: 21
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6Sculk'
+    lore:
+    - '&bYou do not have permission for this effect!'
+    - ''
+    - '&3&lLeft click &bto go to the partical shop!'
+    left_click_commands:
+    - '[player] particles'
+
+  'fairytwins':
+    material: hdb-34467
+    display_name: '&6✿ &eFairy Twins &6❀'
+    slot: 23
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+    - '&bFairy Twins particle'
+    - ''
+    - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: playerparticles.groups.fairytwins
+    left_click_commands:
+    - '[player] pp reset'
+    - '[player] pp group load FairyTwins'
+    - '[close]'
+  'noperm7':
+    material: GRAY_DYE
+    slot: 23
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6Fairy Twins'
+    lore:
+    - '&bYou do not have permission for this effect!'
+    - ''
+    - '&3&lLeft click &bto go to the partical shop!'
+    left_click_commands:
+    - '[player] particles'
+
+  'ForTwenty':
+    material: hdb-34467
+    display_name: '&6◎ &e420 &6◎'
+    slot: 25
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+    - '&b420 particle'
+    - ''
+    - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: playerparticles.groups.ForTwenty
+    left_click_commands:
+    - '[player] pp reset'
+    - '[player] pp group load Fortwenty'
+    - '[close]'
+  'noperm8':
+    material: GRAY_DYE
+    slot: 25
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6420'
+    lore:
+    - '&bYou do not have permission for this effect!'
+    - ''
+    - '&3&lLeft click &bto go to the partical shop!'
+    left_click_commands:
+    - '[player] particles'
