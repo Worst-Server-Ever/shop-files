@@ -55,7 +55,7 @@ items:
       - '[player] cosmeticsown'
 
   'Shop':
-    material: Diamond
+    material: hdb-20850
     display_name: '&e&lShop'
     slot: 26
     lore:
