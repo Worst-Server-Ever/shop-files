@@ -1,4 +1,4 @@
-menu_title: '&b&lCosmetics own'
+menu_title: '&b&lCosmetics Menu'
 open_command: 'cosmeticsown'
 size: 27
 update: true
@@ -18,34 +18,33 @@ items:
     display_name: '&e&lEmoji Faces'
     slot: 10
     lore:
-      -  '&3&lLeft click &bto view &3Emoji Faces'
-
+      - '&3&lLeft click &bto view &3Emoji Faces'
     left_click_commands:
-    - '[player] emotesown'
+      - '[player] emotesown'
 
   'Hats':
     material: hdb-4633
     display_name: '&e&lHats'
     slot: 12
     lore:
-      -  '&3&lLeft click &bto view &3hats'
+      - '&3&lLeft click &bto view &3hats'
     left_click_commands:
-    - '[player] hatsown'
+      - '[player] hatsown'
 
   'Particles':
     material: hdb-40194
     display_name: '&e&lParticle Effects'
     slot: 14
     lore:
-      -  '&3&lLeft click &bto view &3particle effects'
+      - '&3&lLeft click &bto view &3particle effects'
     left_click_commands:
-    - '[player] particlesown'
+      - '[player] particlesown'
 
   'Morphs':
     material: hdb-53448
     display_name: '&e&lMorphs'
     slot: 16
     lore:
-      -  '&3&lLeft click &bto view &3Morphs'
+      - '&3&lLeft click &bto view &3Morphs'
     left_click_commands:
-    - '[player] morpshown'
+      - '[player] morpshown'

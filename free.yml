@@ -1,4 +1,4 @@
-menu_title: '&b&lFree menu'
+menu_title: '&b&lFree Menu'
 open_command: 'free'
 size: 27
 update: true
@@ -21,7 +21,7 @@ items:
     lore:
       - '&bHere you find &3FREE &bitems'
       - '&bJoin the Discord for more'
-      - '&3giveaways &band ouncements'
+      - '&3giveaways &band &3announcements'
       - '&bJoin at &3&nDiscord.WorstServErever.com'
     left_click_commands:
       - "[message] &eClick to join the Discord &6| &3&nDiscord.WorstServerEver.com"
@@ -29,8 +29,8 @@ items:
 
   'froggy':
     material: hdb-50216
-    display_name: '&e&lFroggy'
-    slot: 13
+    display_name: '&6↑ &e&lFroggy &6↑'
+    slot: 15
     update: true
     lore:
       -  ' &3FREE'

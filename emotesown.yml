@@ -1,4 +1,4 @@
-menu_title: '&b&lEmote owned'
+menu_title: '&b&lEmote Menu'
 open_command: 'emotesown'
 size: 36
 update: true
@@ -19,7 +19,7 @@ items:
     slot: 4
     update: true
     lore:
-      - '&bShow your &3emotions'
+      - '&bShow your &3Emotions'
 
   'scared':
     material: hdb-523
@@ -29,7 +29,7 @@ items:
     lore:
       - '&bScared emote'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -44,7 +44,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6&lScared emote'
+    display_name: '&6&lScared'
     lore:
       - '&bYou do &lnot &bhave permission for this emote!'
       - ''
@@ -60,7 +60,7 @@ items:
     lore:
       - '&bSurprised emote'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -75,7 +75,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6&lSurprised emote'
+    display_name: '&6&lSurprised'
     lore:
       - '&bYou do &lnot &bhave permission for this emote!'
       - ''
@@ -91,7 +91,7 @@ items:
     lore:
       - '&bWink emote'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -106,7 +106,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6&lWink emote'
+    display_name: '&6&lWink'
     lore:
       - '&bYou do &lnot &bhave permission for this emote!'
       - ''
@@ -122,7 +122,7 @@ items:
     lore:
       - '&bCrying emote'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -137,7 +137,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6&lCrying emote'
+    display_name: '&6&lCrying'
     lore:
       - '&bYou do &lnot &bhave permission for this emote!'
       - ''
@@ -153,7 +153,7 @@ items:
     lore:
       - '&bAngel emote'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -168,7 +168,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6&lAngel emote'
+    display_name: '&6&lAngel'
     lore:
       - '&bYou do &lnot &bhave permission for this emote!'
       - ''
@@ -184,7 +184,7 @@ items:
     lore:
       - '&bBig Smile emote'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -199,7 +199,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6&lBig Smile emote'
+    display_name: '&6&lBig Smile'
     lore:
       - '&bYou do &lnot &bhave permission for this emote!'
       - ''
@@ -215,7 +215,7 @@ items:
     lore:
       - '&bCool emote'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -230,7 +230,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6&lCool emote'
+    display_name: '&6&lCool'
     lore:
       - '&bYou do &lnot &bhave permission for this emote!'
       - ''
@@ -246,7 +246,7 @@ items:
     lore:
       - '&bDead emote'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -261,7 +261,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6&lDead emote'
+    display_name: '&6&lDead'
     lore:
       - '&bYou do &lnot &bhave permission for this emote!'
       - ''
@@ -277,7 +277,7 @@ items:
     lore:
       - '&bFlustered emote'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -292,7 +292,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6&lFlustered emote'
+    display_name: '&6&lFlustered'
     lore:
       - '&bYou do &lnot &bhave permission for this emote!'
       - ''
@@ -308,7 +308,7 @@ items:
     lore:
       - '&bHappy emote'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -323,7 +323,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6&lHappy emote'
+    display_name: '&6&lHappy'
     lore:
       - '&bYou do &lnot &bhave permission for this emote!'
       - ''
@@ -339,7 +339,7 @@ items:
     lore:
       - '&bKissy emote'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -354,7 +354,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6&lKissy emote'
+    display_name: '&6&lKissy'
     lore:
       - '&bYou do &lnot &bhave permission for this emote!'
       - ''
@@ -370,7 +370,7 @@ items:
     lore:
       - '&bSad emote'
       - ''
-      - '&3&lLeft click &bTo Equip'
+      - '&3&lLeft click &bto equip'
     view_requirement:
       requirements:
         kit_perm:
@@ -385,7 +385,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&Sad emote'
+    display_name: '&Sad'
     lore:
       - '&bYou do &lnot &bhave permission for this emote!'
       - ''

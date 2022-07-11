@@ -1,4 +1,4 @@
-menu_title: '&b&lEquip menu'
+menu_title: '&b&lEquip Menu'
 open_command: 'equip'
 size: 27
 update: true
@@ -10,20 +10,20 @@ items:
     slot: 4
     update: true
     lore:
-      -'&bIn these menus you'
-      -'&bcan equip your owned items'
-      -'&bYyu can get these items'
-      -'&bin &3/shop &bor
-      -'&3lLeft click &bto open'
+      - '&bIn these menus you'
+      - '&bcan equip your owned items'
+      - '&bYou can get these items'
+      - '&bin the &3/shop
+      - '&3&lLeft click &bto open'
     left_click_commands:
-     - '[player] shop'
+      - '[player] shop'
 
   'tags':
     material: hdb-37566
     display_name: '&e&lTags'
     slot: 10
     lore:
-      - '&3Left click &bto open &3tags'
+      - '&3&lLeft click &bto open &3tags'
     left_click_commands:
       - '[player] tags'
 
