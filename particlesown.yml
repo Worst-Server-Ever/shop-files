@@ -155,7 +155,7 @@ items:
     - '[close]'
   'noperm4':
     material: GRAY_DYE
-    slot: 17
+    slot: 31
     priority: 2
     update: true
     hide_attributes: true
