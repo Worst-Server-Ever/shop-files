@@ -46,9 +46,9 @@ items:
     hide_attributes: true
     display_name: '&6&lScared'
     lore:
-      - '&bYou do &lnot &bhave permission for this emote!'
+      - '&bYou do &lnot &bhave permission for this &3Emote&b!'
       - ''
-      - '&3&lLeft click &bto go to the emote shop!'
+      - '&3&lLeft click &bto go to the &3Emote &bshop!'
     left_click_commands:
       - '[player] emote'
 
@@ -77,9 +77,9 @@ items:
     hide_attributes: true
     display_name: '&6&lSurprised'
     lore:
-      - '&bYou do &lnot &bhave permission for this emote!'
+      - '&bYou do &lnot &bhave permission for this &3Emote&b!'
       - ''
-      - '&3&lLeft click &bto go to the emote shop!'
+      - '&3&lLeft click &bto go to the &3Emote &bshop!'
     left_click_commands:
       - '[player] emote'
 
@@ -108,9 +108,9 @@ items:
     hide_attributes: true
     display_name: '&6&lWink'
     lore:
-      - '&bYou do &lnot &bhave permission for this emote!'
+      - '&bYou do &lnot &bhave permission for this &3Emote&b!'
       - ''
-      - '&3&lLeft click &bto go to the emote shop!'
+      - '&3&lLeft click &bto go to the &3Emote &bshop!'
     left_click_commands:
       - '[player] emote'
 
@@ -139,9 +139,9 @@ items:
     hide_attributes: true
     display_name: '&6&lCrying'
     lore:
-      - '&bYou do &lnot &bhave permission for this emote!'
+      - '&bYou do &lnot &bhave permission for this &3Emote&b!'
       - ''
-      - '&3&lLeft click &bto go to the emote shop!'
+      - '&3&lLeft click &bto go to the &3Emote &bshop!'
     left_click_commands:
       - '[player] emote'
 
@@ -170,9 +170,9 @@ items:
     hide_attributes: true
     display_name: '&6&lAngel'
     lore:
-      - '&bYou do &lnot &bhave permission for this emote!'
+      - '&bYou do &lnot &bhave permission for this &3Emote&b!'
       - ''
-      - '&3&lLeft click &bto go to the emote shop!'
+      - '&3&lLeft click &bto go to the &3Emote &bshop!'
     left_click_commands:
       - '[player] emote'
 
@@ -201,9 +201,9 @@ items:
     hide_attributes: true
     display_name: '&6&lBig Smile'
     lore:
-      - '&bYou do &lnot &bhave permission for this emote!'
+      - '&bYou do &lnot &bhave permission for this &3Emote&b!'
       - ''
-      - '&3&lLeft click &bto go to the emote shop!'
+      - '&3&lLeft click &bto go to the &3Emote &bshop!'
     left_click_commands:
       - '[player] emote'
 
@@ -232,9 +232,9 @@ items:
     hide_attributes: true
     display_name: '&6&lCool'
     lore:
-      - '&bYou do &lnot &bhave permission for this emote!'
+      - '&bYou do &lnot &bhave permission for this &3Emote&b!'
       - ''
-      - '&3&lLeft click &bto go to the emote shop!'
+      - '&3&lLeft click &bto go to the &3Emote &bshop!'
     left_click_commands:
       - '[player] emote'
 
@@ -263,9 +263,9 @@ items:
     hide_attributes: true
     display_name: '&6&lDead'
     lore:
-      - '&bYou do &lnot &bhave permission for this emote!'
+      - '&bYou do &lnot &bhave permission for this &3Emote&b!'
       - ''
-      - '&3&lLeft click &bto go to the emote shop!'
+      - '&3&lLeft click &bto go to the &3Emote &bshop!'
     left_click_commands:
       - '[player] emote'
 
@@ -294,9 +294,9 @@ items:
     hide_attributes: true
     display_name: '&6&lFlustered'
     lore:
-      - '&bYou do &lnot &bhave permission for this emote!'
+      - '&bYou do &lnot &bhave permission for this &3Emote&b!'
       - ''
-      - '&3&lLeft click &bto go to the emote shop!'
+      - '&3&lLeft click &bto go to the &3Emote &bshop!'
     left_click_commands:
       - '[player] emote'
 
@@ -325,9 +325,9 @@ items:
     hide_attributes: true
     display_name: '&6&lHappy'
     lore:
-      - '&bYou do &lnot &bhave permission for this emote!'
+      - '&bYou do &lnot &bhave permission for this &3Emote&b!'
       - ''
-      - '&3&lLeft click &bto go to the emote shop!'
+      - '&3&lLeft click &bto go to the &3Emote &bshop!'
     left_click_commands:
       - '[player] emote'
 
@@ -356,9 +356,9 @@ items:
     hide_attributes: true
     display_name: '&6&lKissy'
     lore:
-      - '&bYou do &lnot &bhave permission for this emote!'
+      - '&bYou do &lnot &bhave permission for this &3Emote&b!'
       - ''
-      - '&3&lLeft click &bto go to the emote shop!'
+      - '&3&lLeft click &bto go to the &3Emote &bshop!'
     left_click_commands:
       - '[player] emote'
 
@@ -387,8 +387,8 @@ items:
     hide_attributes: true
     display_name: '&Sad'
     lore:
-      - '&bYou do &lnot &bhave permission for this emote!'
+      - '&bYou do &lnot &bhave permission for this &3Emote&b!'
       - ''
-      - '&3&lLeft click &bto go to the emote shop!'
+      - '&3&lLeft click &bto go to the &3Emote &bshop!'
     left_click_commands:
       - '[player] emote'
