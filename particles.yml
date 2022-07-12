@@ -39,7 +39,7 @@ items:
   'rainycloud':
     material: hdb-34467
     display_name: '&6🌧 &eRainy Cloud &6🌧'
-    slot: 11
+    slot: 12
     update: true
     lore:
       -  ' &3250 &bpoints'
@@ -66,9 +66,9 @@ items:
       - '[close]'
 
   'buzzybee':
-    material: hdb-34467
+    material: hdb-31264
     display_name: '&6ꝏ &eBuzzy Bee &6ꝏ'
-    slot: 11
+    slot: 14
     update: true
     lore:
       -  ' &3250 &bpoints'
@@ -95,9 +95,9 @@ items:
       - '[close]'
 
   'angel':
-    material: hdb-34467
+    material: hdb-41144
     display_name: '&6↓ &eAngel &6↓'
-    slot: 11
+    slot: 21
     update: true
     lore:
       -  ' &3250 &bpoints'
@@ -124,9 +124,9 @@ items:
       - '[close]'
 
   'sculk':
-    material: hdb-34467
+    material: hdb-350750
     display_name: '&6☠ &eSculk &6☠'
-    slot: 11
+    slot: 23
     update: true
     lore:
       -  ' &3250 &bpoints'
@@ -153,9 +153,9 @@ items:
       - '[close]'
 
   'fairytwins':
-    material: hdb-34467
+    material: hdb-49888
     display_name: '&6✿ &eFairy Twins &6❀'
-    slot: 11
+    slot: 25
     update: true
     lore:
       -  ' &3250 &bpoints'

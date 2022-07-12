@@ -14,9 +14,18 @@ items:
     left_click_commands:
       - "[player] cosmeticsown"
 
+  'info-item':
+    material: hdb-5654
+    display_name: '&eParticels you own!'
+    slot: 4
+    update: true
+    lore:
+      - '&bEquip  your'
+      - '&bBeautiful &3Particels'
+  
   'toggle':
     material: redstone_torch
-    display_name: '&e&lTurn particles &a&Lon&6&l/&c&loff'
+    display_name: '&eTurn particles &a&LON&6/&c&lOFF'
     slot: 26
     left_click_commands:
       - "[player] pp toggle"
@@ -30,7 +39,7 @@ items:
     update: true
     hide_attributes: true
     lore:
-      - 'Froggy particle'
+      - '&bFroggy particle'
       - ''
       - '&3&lLeft click &bTo Equip'
     view_requirement:
@@ -91,7 +100,7 @@ items:
     - '[player] particles'
 
   'sparkles':
-    material: hdb-34467
+    material: hdb-13662
     display_name: '&6✦ &eSparkles &6✦'
     slot: 15
     priority: 1
@@ -125,9 +134,9 @@ items:
     - '[player] particles'
 
   'buzzybee':
-    material: hdb-34467
+    material: hdb-31264
     display_name: '&6ꝏ &eBuzzy Bee &6ꝏ'
-    slot: 17
+    slot: 31
     priority: 1
     update: true
     hide_attributes: true
@@ -159,7 +168,7 @@ items:
     - '[player] particles'
 
   'angel':
-    material: hdb-34467
+    material: hdb-41144
     display_name: '&6↓ &eAngel &6↓'
     slot: 19
     priority: 1
@@ -193,7 +202,7 @@ items:
     - '[player] particles'
 
   'sculk':
-    material: hdb-34467
+    material: hdb-50750
     display_name: '&6☠ &eSculk &6☠'
     slot: 21
     priority: 1
@@ -227,7 +236,7 @@ items:
     - '[player] particles'
 
   'fairytwins':
-    material: hdb-34467
+    material: hdb-49888
     display_name: '&6✿ &eFairy Twins &6❀'
     slot: 23
     priority: 1
@@ -261,7 +270,7 @@ items:
     - '[player] particles'
 
   'ForTwenty':
-    material: hdb-34467
+    material: hdb-25276
     display_name: '&6◎ &e420 &6◎'
     slot: 25
     priority: 1
