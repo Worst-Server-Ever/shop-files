@@ -84,12 +84,12 @@ items:
         requirements:
           has_permission:
             type: "!has permission"
-            permission: deluxetags.tag.jarool-disciple
+            permission: group.jarooldisciple
             deny_commands:
             - '[message] &c&lOopsies &6| &bYou already own this item!'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set deluxetags.tag.jarool-disciple true'
+      - '[console] lp user %player_name% group add jarooldisciple'
       - '[message] &e&lThank you! &6| &bYou have claimed your free &3Tag&b!'
       - '[close]'
 
