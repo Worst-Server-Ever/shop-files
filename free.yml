@@ -89,7 +89,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou already own this item!'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% group add JaroolDisciple'
+      - '[console] lp user %player_name% group add deluxetags.tags.jarooldisciple'
       - '[message] &e&lThank you! &6| &bYou have claimed your free &3Tag&b!'
       - '[close]'
 
