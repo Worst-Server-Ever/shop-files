@@ -129,7 +129,7 @@ items:
     slot: 22
     update: true
     lore:
-      -  ' &3250 &bpoints'
+      -  ' &3350 &bpoints'
       - '  '
       -  '&3&lLeft click &bto buy'
     left_click_requirement:
@@ -158,7 +158,7 @@ items:
     slot: 24
     update: true
     lore:
-      -  ' &3250 &bpoints'
+      -  ' &3200 &bpoints'
       - '  '
       -  '&3&lLeft click &bto buy'
     left_click_requirement:
