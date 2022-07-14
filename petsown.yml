@@ -188,3 +188,36 @@ items:
       - '&3&lLeft click &bto go to the &3Pet &bshop!'
     left_click_commands:
       - '[player] pet'
+
+  'parrot':
+    material: hdb-349
+    display_name: '&e&lParrot Pet'
+    slot: 31
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bBlaze Pet'
+      - ''
+      - '&3&lLeft click &bto equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.pets.parrot
+    left_click_commands:
+      - '[player] uc toggle pets parrot'
+      - '[close]'
+  'noperm6':
+    material: GRAY_DYE
+    slot: 31
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lParrot Pet'
+    lore:
+      - '&bYou do &lnot &bhave permission for this &3Pet&b!'
+      - ''
+      - '&3&lLeft click &bto go to the &3Freebies &bmenu!'
+    left_click_commands:
+      - '[player] free'
