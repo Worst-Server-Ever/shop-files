@@ -149,6 +149,7 @@ items:
     material: hdb-52304
     display_name: '&3&lSlime Mount'
     slot: 23
+    priority: 1
     update: true
     lore:
       - '&bSlime Mount'
@@ -158,7 +159,7 @@ items:
       requirements:
         kit_perm:
           type: has permission
-          permission: ultracosmetics.mounts.slime
+          permission: ultracosmetics.mount.slime
     left_click_commands:
       - '[player] uc toggle mounts slime'
       - '[close]'
