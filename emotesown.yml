@@ -25,6 +25,7 @@ items:
     material: hdb-523
     display_name: '&e&lScared'
     slot: 11
+    priority: 1
     update: true
     lore:
       - '&bScared emote'
@@ -56,6 +57,7 @@ items:
     material: hdb-529
     display_name: '&e&lSurprised'
     slot: 12
+    priority: 1
     update: true
     lore:
       - '&bSurprised emote'
@@ -87,6 +89,7 @@ items:
     material: hdb-533
     display_name: '&e&lWink'
     slot: 13
+    priority: 1
     update: true
     lore:
       - '&bWink emote'
@@ -118,6 +121,7 @@ items:
     material: hdb-531
     display_name: '&e&lCrying'
     slot: 14
+    priority: 1
     update: true
     lore:
       - '&bCrying emote'
@@ -149,6 +153,7 @@ items:
     material: hdb-524
     display_name: '&e&lAngel'
     slot: 15
+    priority: 1
     update: true
     lore:
       - '&bAngel emote'
@@ -180,6 +185,7 @@ items:
     material: hdb-532
     display_name: '&e&lBig Smile'
     slot: 16
+    priority: 1
     update: true
     lore:
       - '&bBig Smile emote'
@@ -210,7 +216,8 @@ items:
   'Cool':
     material: hdb-528
     display_name: '&e&lCool'
-    slot:  10
+    slot: 10
+    priority: 1
     update: true
     lore:
       - '&bCool emote'
@@ -242,6 +249,7 @@ items:
     material: hdb-530
     display_name: '&e&lDead'
     slot: 24
+    priority: 1
     update: true
     lore:
       - '&bDead emote'
@@ -273,6 +281,7 @@ items:
     material: hdb-525
     display_name: '&e&lFlustered'
     slot: 20
+    priority: 1
     update: true
     lore:
       - '&bFlustered emote'
@@ -304,6 +313,7 @@ items:
     material: hdb-537
     display_name: '&e&lHappy'
     slot: 21
+    priority: 1
     update: true
     lore:
       - '&bHappy emote'
@@ -335,6 +345,7 @@ items:
     material: hdb-526
     display_name: '&e&lKissy'
     slot: 22
+    priority: 1
     update: true
     lore:
       - '&bKissy emote'
@@ -366,6 +377,7 @@ items:
     material: hdb-527
     display_name: '&e&lSad'
     slot: 23
+    priority: 1
     update: true
     lore:
       - '&bSad emote'
@@ -385,7 +397,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&Sad'
+    display_name: '&6%lSad'
     lore:
       - '&bYou do &lnot &bhave permission for this &3Emote&b!'
       - ''
