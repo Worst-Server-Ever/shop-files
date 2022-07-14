@@ -167,7 +167,7 @@ items:
         requirements:
           has_permission:
             type: "!has permission"
-            permission: ultracosmetics.mount.slime
+            permission: ultracosmetics.mounts.slime
             deny_commands:
             - '[message] &c&lOopsies &6| &bYou already own this item!'
             - '[close]'

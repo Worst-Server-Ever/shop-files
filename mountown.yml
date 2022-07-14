@@ -159,7 +159,7 @@ items:
       requirements:
         kit_perm:
           type: has permission
-          permission: ultracosmetics.mount.slime
+          permission: ultracosmetics.mounts.slime
     left_click_commands:
       - '[player] uc toggle mounts slime'
       - '[close]'
