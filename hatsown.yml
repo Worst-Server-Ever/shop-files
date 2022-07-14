@@ -26,6 +26,7 @@ items:
     material: hdb-4633
     display_name: '&rAstronaut Hat'
     slot: 11
+    priority: 1
     update: true
     lore:
       - '&bAstronaut Hat'
@@ -57,6 +58,7 @@ items:
     material: hdb-338
     display_name: '&rSquid Hat'
     slot: 13
+    priority: 1
     update: true
     lore:
       - '&bSquid Hat'
@@ -88,6 +90,7 @@ items:
     material: hdb-17267
     display_name: '&rCheese Hat'
     slot: 15
+    priority: 1
     update: true
     lore:
       - '&bCheese Hat'
