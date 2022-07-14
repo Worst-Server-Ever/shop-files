@@ -24,7 +24,7 @@ items:
 
   'astronaut':
     material: hdb-4633
-    display_name: '&rAstronaut Hat'
+    display_name: '&e&lAstronaut Hat'
     slot: 11
     priority: 1
     update: true
@@ -46,7 +46,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&Astronaut Hat'
+    display_name: '&e&lAstronaut Hat'
     lore:
       - '&bYou do &lnot &bhave permission for this &3Hat&b!'
       - ''
@@ -56,7 +56,7 @@ items:
 
   'squid':
     material: hdb-338
-    display_name: '&rSquid Hat'
+    display_name: '&e&lSquid Hat'
     slot: 13
     priority: 1
     update: true
@@ -78,7 +78,7 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&Squid Hat'
+    display_name: '&e&lSquid Hat'
     lore:
       - '&bYou do &lnot &bhave permission for this &3Hat&b!'
       - ''
@@ -88,7 +88,7 @@ items:
 
   'cheese':
     material: hdb-17267
-    display_name: '&rCheese Hat'
+    display_name: '&3&lCheese Hat'
     slot: 15
     priority: 1
     update: true
@@ -110,10 +110,23 @@ items:
     priority: 2
     update: true
     hide_attributes: true
-    display_name: '&6Cheese Hat'
+    display_name: '&6&lCheese Hat'
     lore:
       - '&bYou do &lnot &bhave permission for this &3Hat&b!'
       - ''
       - '&3&lLeft click &bto go to the &3Hat &bshop!'
     left_click_commands:
       - '[player] hats'
+
+  'visibility toggle':
+    material: hdb-35645
+    display_name: '&e&lTurn your pet &cOFF'
+    slot: 27
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&3&lLeft click &bto activate'
+    left_click_commands:
+      - '[player] uc clear'
+      - '[close]'

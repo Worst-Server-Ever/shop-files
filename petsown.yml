@@ -221,3 +221,16 @@ items:
       - '&3&lLeft click &bto go to the &3Freebies &bmenu!'
     left_click_commands:
       - '[player] free'
+
+  'visibility toggle':
+    material: hdb-35645
+    display_name: '&e&lTurn your pet &cOFF'
+    slot: 27
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&3&lLeft click &bto activate'
+    left_click_commands:
+      - '[player] uc clear'
+      - '[close]'
