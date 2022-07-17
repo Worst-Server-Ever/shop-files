@@ -50,7 +50,7 @@ items:
         requirements:
           has_permission:
             type: "!has permission"
-            permission: ultracosmetics.pet.panda
+            permission: ultracosmetics.pets.panda
             deny_commands:
             - '[message] &c&lOopsies &6| &bYou already own this item!'
             - '[close]'
@@ -79,7 +79,7 @@ items:
         requirements:
           has_permission:
             type: "!has permission"
-            permission: ultracosmetics.pet.fox
+            permission: ultracosmetics.pets.fox
             deny_commands:
             - '[message] &c&lOopsies &6| &bYou already own this item!'
             - '[close]'
@@ -108,7 +108,7 @@ items:
         requirements:
           has_permission:
             type: "!has permission"
-            permission: ultracosmetics.pet.snowgolem
+            permission: ultracosmetics.pets.snowgolem
             deny_commands:
             - '[message] &c&lOopsies &6| &bYou already own this item!'
             - '[close]'
@@ -137,7 +137,7 @@ items:
         requirements:
           has_permission:
             type: "!has permission"
-            permission: ultracosmetics.pet.axolotl
+            permission: ultracosmetics.pets.axolotl
             deny_commands:
             - '[message] &c&lOopsies &6| &bYou already own this item!'
             - '[close]'
@@ -166,7 +166,7 @@ items:
         requirements:
           has_permission:
             type: "!has permission"
-            permission: ultracosmetics.pet.Blaze
+            permission: ultracosmetics.pets.Blaze
             deny_commands:
             - '[message] &c&lOopsies &6| &bYou already own this item!'
             - '[close]'
