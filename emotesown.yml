@@ -73,7 +73,7 @@ items:
       - '[close]'
   'noperm2':
     material: GRAY_DYE
-    slot: 11
+    slot: 12
     priority: 2
     update: true
     hide_attributes: true
@@ -105,7 +105,7 @@ items:
       - '[close]'
   'noperm3':
     material: GRAY_DYE
-    slot: 11
+    slot: 13
     priority: 2
     update: true
     hide_attributes: true
@@ -137,7 +137,7 @@ items:
       - '[close]'
   'noperm4':
     material: GRAY_DYE
-    slot: 11
+    slot: 14
     priority: 2
     update: true
     hide_attributes: true
@@ -169,7 +169,7 @@ items:
       - '[close]'
   'noperm5':
     material: GRAY_DYE
-    slot: 11
+    slot: 15
     priority: 2
     update: true
     hide_attributes: true
@@ -201,7 +201,7 @@ items:
       - '[close]'
   'noperm6':
     material: GRAY_DYE
-    slot: 11
+    slot: 16
     priority: 2
     update: true
     hide_attributes: true
@@ -233,7 +233,7 @@ items:
       - '[close]'
   'noperm7':
     material: GRAY_DYE
-    slot: 11
+    slot: 10
     priority: 2
     update: true
     hide_attributes: true
@@ -265,7 +265,7 @@ items:
       - '[close]'
   'noperm8':
     material: GRAY_DYE
-    slot: 11
+    slot: 24
     priority: 2
     update: true
     hide_attributes: true
@@ -297,7 +297,7 @@ items:
       - '[close]'
   'noperm9':
     material: GRAY_DYE
-    slot: 11
+    slot: 20
     priority: 2
     update: true
     hide_attributes: true
@@ -329,7 +329,7 @@ items:
       - '[close]'
   'noperm10':
     material: GRAY_DYE
-    slot: 11
+    slot: 21
     priority: 2
     update: true
     hide_attributes: true
@@ -361,7 +361,7 @@ items:
       - '[close]'
   'noperm11':
     material: GRAY_DYE
-    slot: 11
+    slot: 22
     priority: 2
     update: true
     hide_attributes: true
@@ -393,7 +393,7 @@ items:
       - '[close]'
   'noperm12':
     material: GRAY_DYE
-    slot: 11
+    slot: 23
     priority: 2
     update: true
     hide_attributes: true

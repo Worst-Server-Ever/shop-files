@@ -74,7 +74,7 @@ items:
       - '[close]'
   'noperm2':
     material: GRAY_DYE
-    slot: 11
+    slot: 13
     priority: 2
     update: true
     hide_attributes: true
@@ -106,7 +106,7 @@ items:
       - '[close]'
   'noperm3':
     material: GRAY_DYE
-    slot: 11
+    slot: 15
     priority: 2
     update: true
     hide_attributes: true
