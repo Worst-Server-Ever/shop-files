@@ -1,6 +1,6 @@
 menu_title: '&b&lPet Menu'
 open_command: 'pet'
-size: 36
+size: 45
 update: true
 
 items:
@@ -183,9 +183,9 @@ items:
         - '[close]'
         
   'Mooshroom':
-      material: hdb-322
+      material: hdb-339
       display_name: '&e&lMooshroom Pet'
-      slot: 23
+      slot: 32
       update: true
       lore:
       - ' &3450 &bpoints'
@@ -213,9 +213,9 @@ items:
      
      
   'Pumpling':
-      material: hdb-322
+      material: hdb-51310
       display_name: '&e&lPumpling Pet'
-      slot: 23
+      slot: 30
       update: true
       lore:
       - ' &3450 &bpoints'
@@ -242,9 +242,9 @@ items:
         - '[close]'
         
   'Bat':
-      material: hdb-322
+      material: hdb-47787
       display_name: '&e&lBat Pet'
-      slot: 23
+      slot: 28
       update: true
       lore:
       - ' &3450 &bpoints'
@@ -271,9 +271,9 @@ items:
         - '[close]'
 
   'Goat':
-      material: hdb-322
+      material: hdb-42452
       display_name: '&e&lGoat Pet'
-      slot: 23
+      slot: 26
       update: true
       lore:
       - ' &3450 &bpoints'
