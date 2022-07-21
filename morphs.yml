@@ -205,8 +205,8 @@ items:
         - '[message] &e&lThank you! &6| &bYou have bought the &3Skeleton Morph &bfor &3450&b!'
         - '[close]'
         
-  'creeper morph'
-      material: creeper_skull
+  'creeper morph':
+      material: creeper_head
       display_name: '&e&lCreeper Morph'
       slot: 33
       update: true
