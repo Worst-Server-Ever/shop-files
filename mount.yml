@@ -55,7 +55,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/500)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.mounts.glacialsteed'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.mounts.glacialsteed'
       - '[console] points take %player_name% 500'
       - '[message] &e&lThank you! &6| &bYou have bought the &3Glacial Steed &bfor &3500&b!'
       - '[close]'
@@ -86,7 +86,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/500)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.mounts.mountoffire'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.mounts.mountoffire'
       - '[console] points take %player_name% 500'
       - '[message] &e&lThank you! &6| &bYou have bought the &3Mount Of Fire &bfor &3500&b!'
       - '[close]'
@@ -117,7 +117,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/500)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.mounts.mountofwater'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.mounts.mountofwater'
       - '[console] points take %player_name% 500'
       - '[message] &e&lThank you! &6| &bYou have bought the &3Mount Of Water &bfor &3500&b!'
       - '[close]'
@@ -148,7 +148,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/500)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.mounts.ecologisthorse'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.mounts.ecologisthorse'
       - '[console] points take %player_name% 500'
       - '[message] &e&lThank you! &6| &bYou have bought the &3Ecologist Horse &bfor &3500&b!'
       - '[close]'
@@ -178,7 +178,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/500)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.mount.slime'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.mount.slime'
       - '[console] points take %player_name% 500'
       - '[message] &e&lThank you! &6| &bYou have bought the &3Slime Mount &bfor &3500&b!'
       - '[close]'

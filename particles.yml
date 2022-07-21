@@ -60,7 +60,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set playerparticles.groups.rainycloud'
+      - '[console] lp user %player_uuid% permission set playerparticles.groups.rainycloud'
       - '[console] points take %player_name% 250'
       - '[message] &e&lThank you! &7| &bYou have bought the &3Rainy Cloud Particel  &bfor &3250&b!'
       - '[close]'
@@ -89,7 +89,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set playerparticles.groups.buzzybee'
+      - '[console] lp user %player_uuid% permission set playerparticles.groups.buzzybee'
       - '[console] points take %player_name% 250'
       - '[message] &e&lThank you! &7| &bYou have bought the &3Buzzy Bee Particel  &bfor &3250&b!'
       - '[close]'
@@ -118,7 +118,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set playerparticles.groups.angel'
+      - '[console] lp user %player_uuid% permission set playerparticles.groups.angel'
       - '[console] points take %player_name% 250'
       - '[message] &e&lThank you! &7| &bYou have bought the &3Angel Particel  &bfor &3250&b!'
       - '[close]'
@@ -147,7 +147,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/350)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set playerparticles.groups.sculk'
+      - '[console] lp user %player_uuid% permission set playerparticles.groups.sculk'
       - '[console] points take %player_name% 350'
       - '[message] &e&lThank you! &7| &bYou have bought the &3Sculk  &bfor &3350&b!'
       - '[close]'
@@ -176,7 +176,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/200)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set playerparticles.groups.fairytwins'
+      - '[console] lp user %player_uuid% permission set playerparticles.groups.fairytwins'
       - '[console] points take %player_name% 200'
       - '[message] &e&lThank you! &7| &bYou have bought the &3Sculk  &bfor &3200&b!'
       - '[close]'

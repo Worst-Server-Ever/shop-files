@@ -54,7 +54,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.scared'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.scared'
       - '[console] points take %player_name% 250'
       - '[message] &e&lThank you! &6| &bYou have bought the scared emote for &3250&b!'
       - '[close]'
@@ -83,7 +83,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.surprised'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.surprised'
       - '[console] points take %player_name% 250'
       - '[message] &#75E6DA&lThank you! &7| &fYou have bought the surprised emote for 250!'
       - '[close]'
@@ -112,7 +112,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.wink'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.wink'
       - '[console] points take %player_name% 250'
       - '[message] &#75E6DA&lThank you! &7| &fYou have bought the wink emote for 250!'
       - '[close]'
@@ -141,7 +141,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.crying'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.crying'
       - '[console] points take %player_name% 250'
       - '[message] &#75E6DA&lThank you! &7| &fYou have bought the crying emote for 250!'
       - '[close]'
@@ -170,7 +170,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.angel'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.angel'
       - '[console] points take %player_name% 250'
       - '[message] &#75E6DA&lThank you! &7| &fYou have bought the angel for 250!'
       - '[close]'
@@ -199,7 +199,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.bigsmile'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.bigsmile'
       - '[console] points take %player_name% 250'
       - '[message] &#75E6DA&lThank you! &7| &fYou have bought the big smile emote for 250!'
       - '[close]'
@@ -228,7 +228,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.cool'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.cool'
       - '[console] points take %player_name% 250'
       - '[message] &#75E6DA&lThank you! &7| &fYou have bought the cool emote for 250!'
       - '[close]'
@@ -257,7 +257,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.dead'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.dead'
       - '[console] points take %player_name% 250'
       - '[message] &#75E6DA&lThank you! &7| &fYou have bought the dead emote for 250!'
       - '[close]'
@@ -286,7 +286,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.embarassed'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.embarassed'
       - '[console] points take %player_name% 250'
       - '[message] &#75E6DA&lThank you! &7| &fYou have bought the flustered emote for 250!'
       - '[close]'
@@ -315,7 +315,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.smile'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.smile'
       - '[console] points take %player_name% 250'
       - '[message] &#75E6DA&lThank you! &7| &fYou have bought the happy emote for 250!'
       - '[close]'
@@ -344,7 +344,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.Kissy'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.Kissy'
       - '[console] points take %player_name% 250'
       - '[message] &#75E6DA&lThank you! &7| &fYou have bought the Kissy emote for 250!'
       - '[close]'
@@ -373,7 +373,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/250)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.sad'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.sad'
       - '[console] points take %player_name% 250'
       - '[message] &#75E6DA&lThank you! &7| &fYou have bought the sad emote for 250!'
       - '[close]'

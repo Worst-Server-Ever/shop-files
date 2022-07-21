@@ -54,7 +54,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/300)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.astronaut'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.astronaut'
       - '[console] points take %player_name% 300'
       - '[message] &e&lThank you! &7| &bYou have bought the &3Astronaut Hat &bfor &3300&b!'
       - '[close]'
@@ -83,7 +83,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/300)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.squid'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.squid'
       - '[console] points take %player_name% 300'
       - '[message] &e&lThank you! &7| &bYou have bought the &3Squid Hat &bfor &3300&b!'
       - '[close]'
@@ -112,7 +112,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/300)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set ultracosmetics.hats.cheese'
+      - '[console] lp user %player_uuid% permission set ultracosmetics.hats.cheese'
       - '[console] points take %player_name% 300'
       - '[message] &e&lThank you! &7| &bYou have bought the &3Cheese Hat &bfor &3300&b!'
       - '[close]'

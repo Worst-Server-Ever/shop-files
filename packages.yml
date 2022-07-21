@@ -58,7 +58,7 @@ items:
             - "[message] &c&lOopsies &6| &bYou do &b&lnot &bhave enough &3points &bto do this!, you have &3(%playerpoints_points%/100)"
             - "[close]"
     left_click_commands:
-      - "[console] lp user %player_name% group add donator"
+      - "[console] lp user %player_uuid% group add donator"
       - "[console] points take %player_name% 100"
       - "[message] &e&lThank you! &6| &bYou have bought the &3donator rank &bfor &3100 &bpoints!"
       - "[close]"
@@ -90,7 +90,7 @@ items:
             - "[message] &c&lOopsies &6| &bYou do &b&lnot &bhave enough &3points &bto do this!, you have &3(%playerpoints_points%/420)"
             - "[close]"
     left_click_commands:
-      - "[console] lp user %player_name% group add 420-dono"
+      - "[console] lp user %player_uuid% group add 420-dono"
       - "[console] points take %player_name% 420"
       - "[message] &e&lThank you! &6| &bYou have bought the &3420 haha rank &bfor &3420 &bpoints!"
       - "[close]"
@@ -122,7 +122,7 @@ items:
             - "[message] &c&lOopsies &6| &bYou do &b&lnot &bhave enough &3points &bto do this!, you have &3(%playerpoints_points%/1000)"
             - "[close]"
     left_click_commands:
-      - "[console] lp user %player_name% group add uwu"
+      - "[console] lp user %player_uuid% group add uwu"
       - "[console] points take %player_name% 1000"
       - "[message] &e&lThank you! &6| &bYou have bought UwU rank for &31000 &bpoints!"
       - "[close]"
