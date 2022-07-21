@@ -242,7 +242,7 @@ items:
     left_click_commands:
       - '[player] uc toggle pets goat'
       - '[close]'
-  'noperm5':
+  'noperm7':
     material: GRAY_DYE
     slot: 33
     priority: 2
@@ -276,7 +276,7 @@ items:
     left_click_commands:
       - '[player] uc toggle pets bat'
       - '[close]'
-  'noperm5':
+  'noperm8':
     material: GRAY_DYE
     slot: 35
     priority: 2
@@ -310,7 +310,7 @@ items:
     left_click_commands:
       - '[player] uc toggle pets pumpling'
       - '[close]'
-  'noperm5':
+  'noperm9':
     material: GRAY_DYE
     slot: 37
     priority: 2
@@ -344,7 +344,7 @@ items:
     left_click_commands:
       - '[player] uc toggle pets mooshroom'
       - '[close]'
-  'noperm5':
+  'noperm10':
     material: GRAY_DYE
     slot: 39
     priority: 2
