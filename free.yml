@@ -19,8 +19,8 @@ items:
     slot: 4
     update: true
     lore:
-      - '&bHere you find &3FREE &bitems'
-      - '&bJoin the Discord for more'
+      - '&bThere are &lno &bfreebies for now'
+      - '&bjoin the Discord for'
       - '&3giveaways &band &3announcements'
       - '&bJoin at &3&nDiscord.WorstServErever.com'
     left_click_commands:
