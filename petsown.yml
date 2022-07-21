@@ -197,7 +197,7 @@ items:
     update: true
     hide_attributes: true
     lore:
-      - '&bBlaze Pet'
+      - '&bParrot Pet'
       - ''
       - '&3&lLeft click &bto equip'
     view_requirement:
@@ -218,9 +218,9 @@ items:
     lore:
       - '&bYou do &lnot &bhave permission for this &3Pet&b!'
       - ''
-      - '&3&lLeft click &bto go to the &3Freebies &bmenu!'
+      - '&3&lThis pet is no longer available!'
     left_click_commands:
-      - '[player] free'
+      - '[player] close'
 
   'visibility toggle':
     material: hdb-35645
