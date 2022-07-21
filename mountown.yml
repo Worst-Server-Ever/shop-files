@@ -36,7 +36,7 @@ items:
           type: has permission
           permission: ultracosmetics.mounts.glacialsteed
     left_click_commands:
-      - '[player] uc toggle mounts glacial steed'
+      - '[player] uc toggle mounts glacialsteed'
       - '[close]'
   'noperm1':
     material: GRAY_DYE
