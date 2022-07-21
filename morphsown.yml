@@ -225,7 +225,39 @@ items:
     left_click_commands:
      - '[player] morphs'
 
-
+  'creeper morph':
+    material: creeper_skull
+    display_name: '&e&lCreeper Morph'
+    slot: 33
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bCreeper Morph'
+      - ''
+      - '&3&lLeft click &bto equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: libsdisguises.disguise.creeper.*
+    left_click_commands:
+      - '[player] disguise creeper setDynamicName'
+      - '[close]'
+  'noperm7':
+    material: GRAY_DYE
+    slot: 33
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lCreeper Morph'
+    lore:
+     - '&bYou do &lnot &bhave permission for this &3Morph&b!'
+     - ''
+     - '&3&lLeft click &bto go to the &3Morph &bshop!'
+    left_click_commands:
+     - '[player] morphs'
+     
   'fireset':
     material: hdb-20038
     display_name: '&e&lFire'
