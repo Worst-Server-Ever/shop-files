@@ -181,3 +181,120 @@ items:
         - '[console] points take %player_name% 450'
         - '[message] &e&lThank you! &6| &bYou have bought the Blaze Pet for 450!'
         - '[close]'
+        
+  'Mooshroom':
+      material: hdb-322
+      display_name: '&e&lMooshroom Pet'
+      slot: 23
+      update: true
+      lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+      left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.pets.mooshroom
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+      left_click_commands:
+        - '[console] lp user %player_name% permission set ultracosmetics.pets.mooshroom'
+        - '[console] points take %player_name% 450'
+        - '[message] &e&lThank you! &6| &bYou have bought the Mooshroom Pet for 450!'
+        - '[close]'
+     
+     
+  'Pumpling':
+      material: hdb-322
+      display_name: '&e&lPumpling Pet'
+      slot: 23
+      update: true
+      lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+      left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.pets.pumpling
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+      left_click_commands:
+        - '[console] lp user %player_name% permission set ultracosmetics.pets.pumpling'
+        - '[console] points take %player_name% 450'
+        - '[message] &e&lThank you! &6| &bYou have bought the Pumpling Pet for 450!'
+        - '[close]'
+        
+  'Bat':
+      material: hdb-322
+      display_name: '&e&lBat Pet'
+      slot: 23
+      update: true
+      lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+      left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.pets.bat
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+      left_click_commands:
+        - '[console] lp user %player_name% permission set ultracosmetics.pets.bat'
+        - '[console] points take %player_name% 450'
+        - '[message] &e&lThank you! &6| &bYou have bought the Bat Pet for 450!'
+        - '[close]'
+
+  'Goat':
+      material: hdb-322
+      display_name: '&e&lGoat Pet'
+      slot: 23
+      update: true
+      lore:
+      - ' &3450 &bpoints'
+      - '  '
+      - '&3&lLeft click &bto buy'
+      left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: ultracosmetics.pets.goat
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 450'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do not have enough points to do this! &3(%playerpoints_points%/450)'
+            - '[close]'
+      left_click_commands:
+        - '[console] lp user %player_name% permission set ultracosmetics.pets.goat'
+        - '[console] points take %player_name% 450'
+        - '[message] &e&lThank you! &6| &bYou have bought the Goat Pet for 450!'
+        - '[close]'
