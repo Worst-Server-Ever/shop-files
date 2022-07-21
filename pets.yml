@@ -62,7 +62,7 @@ items:
             - '[close]'
     left_click_commands:
       - '[console] lp user %player_uuid% permission set ultracosmetics.pet.panda'
-      - '[console] points take %player_uuid% 450'
+      - '[console] points take %player_name% 450'
       - '[message] &e&lThank you! &6| &bYou have bought the Panda Pet for 450!'
       - '[close]'
 
@@ -91,7 +91,7 @@ items:
             - '[close]'
     left_click_commands:
       - '[console] lp user %player_uuid% permission set ultracosmetics.pet.fox'
-      - '[console] points take %player_uuid% 450'
+      - '[console] points take %player_name% 450'
       - '[message] &e&lThank you! &6| &bYou have bought the Fox Pet for &3450!'
       - '[close]'
 
@@ -120,7 +120,7 @@ items:
             - '[close]'
     left_click_commands:
       - '[console] lp user %player_uuid% permission set ultracosmetics.pet.Snowgolem'
-      - '[console] points take %player_uuid% 450'
+      - '[console] points take %player_name% 450'
       - '[message] &e&lThank you! &6| &bYou have bought the Snow Golem Pet for 450!'
       - '[close]'
 
@@ -149,7 +149,7 @@ items:
             - '[close]'
     left_click_commands:
       - '[console] lp user %player_uuid% permission set ultracosmetics.pet.Axolotl'
-      - '[console] points take %player_uuid% 450'
+      - '[console] points take %player_name% 450'
       - '[message] &e&lThank you! &6| &bYou have bought the Axolotl Pet for 450!'
       - '[close]'
 
@@ -178,7 +178,7 @@ items:
             - '[close]'
       left_click_commands:
         - '[console] lp user %player_uuid% permission set ultracosmetics.pet.Blaze'
-        - '[console] points take %player_uuid% 450'
+        - '[console] points take %player_name% 450'
         - '[message] &e&lThank you! &6| &bYou have bought the Blaze Pet for 450!'
         - '[close]'
         
@@ -207,7 +207,7 @@ items:
             - '[close]'
       left_click_commands:
         - '[console] lp user %player_uuid% permission set ultracosmetics.pets.mooshroom'
-        - '[console] points take %player_uuid% 450'
+        - '[console] points take %player_name% 450'
         - '[message] &e&lThank you! &6| &bYou have bought the Mooshroom Pet for 450!'
         - '[close]'
      
@@ -237,7 +237,7 @@ items:
             - '[close]'
       left_click_commands:
         - '[console] lp user %player_uuid% permission set ultracosmetics.pets.pumpling'
-        - '[console] points take %player_uuid% 450'
+        - '[console] points take %player_name% 450'
         - '[message] &e&lThank you! &6| &bYou have bought the Pumpling Pet for 450!'
         - '[close]'
         
@@ -266,7 +266,7 @@ items:
             - '[close]'
       left_click_commands:
         - '[console] lp user %player_uuid% permission set ultracosmetics.pets.bat'
-        - '[console] points take %player_uuid% 450'
+        - '[console] points take %player_name% 450'
         - '[message] &e&lThank you! &6| &bYou have bought the Bat Pet for 450!'
         - '[close]'
 
@@ -295,6 +295,6 @@ items:
             - '[close]'
       left_click_commands:
         - '[console] lp user %player_uuid% permission set ultracosmetics.pets.goat'
-        - '[console] points take %player_uuid% 450'
+        - '[console] points take %player_name% 450'
         - '[message] &e&lThank you! &6| &bYou have bought the Goat Pet for 450!'
         - '[close]'
