@@ -34,7 +34,7 @@ items:
       requirements:
         kit_perm:
           type: has permission
-          permission: ultracosmetics.mounts.sad
+          permission: ultracosmetics.mounts.glacialsteed
     left_click_commands:
       - '[player] uc toggle mounts glacial steed'
       - '[close]'
