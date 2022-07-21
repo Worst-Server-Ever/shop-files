@@ -54,9 +54,9 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/450)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set libsdisguises.disguise.falling_block.*'
-      - '[console] lp user %player_name% permission set libsdisguises.candisguise.grass_block'
-      - '[console] points take %player_name% 450'
+      - '[console] lp user %player_uuid% permission set libsdisguises.disguise.falling_block.*'
+      - '[console] lp user %player_uuid% permission set libsdisguises.candisguise.grass_block'
+      - '[console] points take %player_uuid% 450'
       - '[message] &e&lThank you! &6| &bYou have bought the &3Grass Block Morph &bfor &3450&b!'
       - '[close]'
 
@@ -84,8 +84,8 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/450)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set libsdisguises.disguise.frog.*'
-      - '[console] points take %player_name% 450'
+      - '[console] lp user %player_uuid% permission set libsdisguises.disguise.frog.*'
+      - '[console] points take %player_uuid% 450'
       - '[message] &e&lThank you! &6| &bYou have bought the &3Frog Morph &bfor &3450!'
       - '[close]'
 
@@ -113,8 +113,8 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/450)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set libsdisguises.disguise.bee.*'
-      - '[console] points take %player_name% 450'
+      - '[console] lp user %player_uuid% permission set libsdisguises.disguise.bee.*'
+      - '[console] points take %player_uuid% 450'
       - '[message] &e&lThank you! &6| &bYou have bought the &3Bee Morph &bfor &3450&b!'
       - '[close]'
 
@@ -142,8 +142,8 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/450)'
             - '[close]'
     left_click_commands:
-      - '[console] lp user %player_name% permission set libsdisguises.disguise.allay.*'
-      - '[console] points take %player_name% 450'
+      - '[console] lp user %player_uuid% permission set libsdisguises.disguise.allay.*'
+      - '[console] points take %player_uuid% 450'
       - '[message] &e&lThank you! &6| &bYou have bought the &3Allay Morph &bfor &3450&b!'
       - '[close]'
 
@@ -171,8 +171,8 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/450)'
             - '[close]'
       left_click_commands:
-        - '[console] lp user %player_name% permission set libsdisguises.disguise.zombie.*'
-        - '[console] points take %player_name% 450'
+        - '[console] lp user %player_uuid% permission set libsdisguises.disguise.zombie.*'
+        - '[console] points take %player_uuid% 450'
         - '[message] &e&lThank you! &6| &bYou have bought the &3Zombie Morph &bfor &3450&b!'
         - '[close]'
         
@@ -200,8 +200,8 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/450)'
             - '[close]'
       left_click_commands:
-        - '[console] lp user %player_name% permission set libsdisguises.disguise.skeleton.*'
-        - '[console] points take %player_name% 450'
+        - '[console] lp user %player_uuid% permission set libsdisguises.disguise.skeleton.*'
+        - '[console] points take %player_uuid% 450'
         - '[message] &e&lThank you! &6| &bYou have bought the &3Skeleton Morph &bfor &3450&b!'
         - '[close]'
         
@@ -229,7 +229,7 @@ items:
             - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/450)'
             - '[close]'
       left_click_commands:
-        - '[console] lp user %player_name% permission set libsdisguises.disguise.creeper.*'
-        - '[console] points take %player_name% 450'
+        - '[console] lp user %player_uuid% permission set libsdisguises.disguise.creeper.*'
+        - '[console] points take %player_uuid% 450'
         - '[message] &e&lThank you! &6| &bYou have bought the &3Skeleton Morph &bfor &3450&b!'
         - '[close]'
