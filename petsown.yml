@@ -1,6 +1,6 @@
 menu_title: '&b&lPet Menu'
 open_command: 'petown'
-size: 36
+size: 45
 update: true
 
 items:
@@ -221,6 +221,142 @@ items:
       - '&3&lThis pet is no longer available!'
     left_click_commands:
       - '[player] close'
+      
+
+  'Goat':
+    material: hdb-42452
+    display_name: '&e&lGoat Pet'
+    slot: 33
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bGoat Pet'
+      - ''
+      - '&3&lLeft click &bto equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.pets.goat
+    left_click_commands:
+      - '[player] uc toggle pets goat'
+      - '[close]'
+  'noperm5':
+    material: GRAY_DYE
+    slot: 33
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lGoat Pet'
+    lore:
+      - '&bYou do &lnot &bhave permission for this &3Pet&b!'
+      - ''
+      - '&3&lLeft click &bto go to the &3Pet &bshop!'
+    left_click_commands:
+      - '[player] pet'
+      
+ 
+  'Bat':
+    material: hdb-47787
+    display_name: '&e&lBat Pet'
+    slot: 35
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bBat Pet'
+      - ''
+      - '&3&lLeft click &bto equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.pets.bat
+    left_click_commands:
+      - '[player] uc toggle pets bat'
+      - '[close]'
+  'noperm5':
+    material: GRAY_DYE
+    slot: 35
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lBat Pet'
+    lore:
+      - '&bYou do &lnot &bhave permission for this &3Pet&b!'
+      - ''
+      - '&3&lLeft click &bto go to the &3Pet &bshop!'
+    left_click_commands:
+      - '[player] pet'
+      
+ 
+  'Pumpling':
+    material: hdb-51310
+    display_name: '&e&lPumpling Pet'
+    slot: 37
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bPumpling Pet'
+      - ''
+      - '&3&lLeft click &bto equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.pets.pumpling
+    left_click_commands:
+      - '[player] uc toggle pets pumpling'
+      - '[close]'
+  'noperm5':
+    material: GRAY_DYE
+    slot: 37
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lPumpling Pet'
+    lore:
+      - '&bYou do &lnot &bhave permission for this &3Pet&b!'
+      - ''
+      - '&3&lLeft click &bto go to the &3Pet &bshop!'
+    left_click_commands:
+      - '[player] pet'
+      
+ 
+  'Mooshroom':
+    material: hdb-339
+    display_name: '&e&lMooshroom Pet'
+    slot: 39
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+      - '&bMooshroom Pet'
+      - ''
+      - '&3&lLeft click &bto equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: ultracosmetics.pets.mooshroom
+    left_click_commands:
+      - '[player] uc toggle pets mooshroom'
+      - '[close]'
+  'noperm5':
+    material: GRAY_DYE
+    slot: 39
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6&lMooshroom Pet'
+    lore:
+      - '&bYou do &lnot &bhave permission for this &3Pet&b!'
+      - ''
+      - '&3&lLeft click &bto go to the &3Pet &bshop!'
+    left_click_commands:
+      - '[player] pet'
 
   'visibility toggle':
     material: hdb-35645
