@@ -61,9 +61,9 @@ items:
     lore:
     - '&bYou do not have permission for this effect!'
     - ''
-    - '&3&lLeft click &bto go to the partical shop!'
+    - '&3&lThis particle is no longer available'
     left_click_commands:
-    - '[player] particles'
+    - '[player] close'
 
   'rainy_cloud':
     material: hdb-34467
