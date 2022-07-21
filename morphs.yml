@@ -230,6 +230,6 @@ items:
             - '[close]'
       left_click_commands:
         - '[console] lp user %player_uuid% permission set libsdisguises.disguise.creeper.*'
-        - '[console] points take %player_uuid% 450'
+        - '[console] points take %player_name% 450'
         - '[message] &e&lThank you! &6| &bYou have bought the &3Skeleton Morph &bfor &3450&b!'
         - '[close]'
