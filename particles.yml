@@ -178,5 +178,35 @@ items:
     left_click_commands:
       - '[console] lp user %player_uuid% permission set playerparticles.groups.fairytwins'
       - '[console] points take %player_name% 200'
-      - '[message] &e&lThank you! &7| &bYou have bought the &3Sculk  &bfor &3200&b!'
+      - '[message] &e&lThank you! &7| &bYou have bought the &3fairy Twins  &bfor &3200&b!'
+      - '[close]'
+      
+      
+  'sparkles':
+    material: hdb-13661
+    display_name: '&6&eSparkle effect &6'
+    slot: 10
+    update: true
+    lore:
+      -  ' &3100 &bpoints'
+      - '  '
+      -  '&3&lLeft click &bto buy'
+    left_click_requirement:
+        requirements:
+          has_permission:
+            type: "!has permission"
+            permission: playerparticles.groups.sparkles
+            deny_commands:
+            - '[message] &c&lOppsies &6| &bYou already own this item!'
+            - '[close]'
+          has_points:
+            type: javascript
+            expression: '%playerpoints_points% >= 100'
+            deny_commands:
+            - '[message] &c&lOopsies &6| &bYou do &lnot &bhave enough points to do this! &3(%playerpoints_points%/100)'
+            - '[close]'
+    left_click_commands:
+      - '[console] lp user %player_uuid% permission set playerparticles.groups.sparkles'
+      - '[console] points take %player_name% 100'
+      - '[message] &e&lThank you! &7| &bYou have bought the &3Sparkles  &bfor &3200&b!'
       - '[close]'

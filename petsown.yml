@@ -7,7 +7,7 @@ items:
   "exit-menu":
     material: hdb-9111
     display_name: "&c&lBack"
-    slot: 35
+    slot: 40
     lore:
       - '&3&lLeft click &bto go to previous menu'
     left_click_commands:
@@ -26,7 +26,7 @@ items:
   'Panda':
     material: hdb-49671
     display_name: '&e&lPanda Pet'
-    slot: 11
+    slot: 10
     priority: 1
     update: true
     hide_attributes: true
@@ -44,7 +44,7 @@ items:
       - '[close]'
   'noperm1':
     material: GRAY_DYE
-    slot: 11
+    slot: 10
     priority: 2
     update: true
     hide_attributes: true
@@ -59,7 +59,7 @@ items:
   'Fox':
     material: hdb-33923
     display_name: '&e&lFox Pet'
-    slot: 21
+    slot: 16
     priority: 1
     update: true
     hide_attributes: true
@@ -77,7 +77,7 @@ items:
       - '[close]'
   'noperm2':
     material: GRAY_DYE
-    slot: 21
+    slot: 16
     priority: 2
     update: true
     hide_attributes: true
@@ -93,7 +93,7 @@ items:
   'Snow golem':
     material: hdb-4378
     display_name: '&e&lSnow Golem Pet'
-    slot: 13
+    slot: 12
     priority: 1
     update: true
     hide_attributes: true
@@ -111,7 +111,7 @@ items:
       - '[close]'
   'noperm3':
     material: GRAY_DYE
-    slot: 13
+    slot: 12
     priority: 2
     update: true
     hide_attributes: true
@@ -126,7 +126,7 @@ items:
   'Axolotl':
     material: hdb-49910
     display_name: '&e&lAxolotl Pet'
-    slot: 15
+    slot: 14
     priority: 1
     update: true
     hide_attributes: true
@@ -144,7 +144,7 @@ items:
       - '[close]'
   'noperm4':
     material: GRAY_DYE
-    slot: 15
+    slot: 14
     priority: 2
     update: true
     hide_attributes: true
@@ -159,7 +159,7 @@ items:
   'Blaze':
     material: hdb-322
     display_name: '&e&lBlaze Pet'
-    slot: 23
+    slot: 20
     priority: 1
     update: true
     hide_attributes: true
@@ -177,7 +177,7 @@ items:
       - '[close]'
   'noperm5':
     material: GRAY_DYE
-    slot: 23
+    slot: 20
     priority: 2
     update: true
     hide_attributes: true
@@ -192,7 +192,7 @@ items:
   'parrot':
     material: hdb-349
     display_name: '&e&lParrot Pet'
-    slot: 31
+    slot: 34
     priority: 1
     update: true
     hide_attributes: true
@@ -210,7 +210,7 @@ items:
       - '[close]'
   'noperm6':
     material: GRAY_DYE
-    slot: 31
+    slot: 34
     priority: 2
     update: true
     hide_attributes: true
@@ -226,7 +226,7 @@ items:
   'Goat':
     material: hdb-42452
     display_name: '&e&lGoat Pet'
-    slot: 33
+    slot: 32
     priority: 1
     update: true
     hide_attributes: true
@@ -244,7 +244,7 @@ items:
       - '[close]'
   'noperm7':
     material: GRAY_DYE
-    slot: 33
+    slot: 32
     priority: 2
     update: true
     hide_attributes: true
@@ -260,7 +260,7 @@ items:
   'Bat':
     material: hdb-47787
     display_name: '&e&lBat Pet'
-    slot: 35
+    slot: 30
     priority: 1
     update: true
     hide_attributes: true
@@ -278,7 +278,7 @@ items:
       - '[close]'
   'noperm8':
     material: GRAY_DYE
-    slot: 35
+    slot: 30
     priority: 2
     update: true
     hide_attributes: true
@@ -294,7 +294,7 @@ items:
   'Pumpling':
     material: hdb-51310
     display_name: '&e&lPumpling Pet'
-    slot: 37
+    slot: 24
     priority: 1
     update: true
     hide_attributes: true
@@ -312,7 +312,7 @@ items:
       - '[close]'
   'noperm9':
     material: GRAY_DYE
-    slot: 37
+    slot: 24
     priority: 2
     update: true
     hide_attributes: true
@@ -328,7 +328,7 @@ items:
   'Mooshroom':
     material: hdb-339
     display_name: '&e&lMooshroom Pet'
-    slot: 39
+    slot: 22
     priority: 1
     update: true
     hide_attributes: true
@@ -346,7 +346,7 @@ items:
       - '[close]'
   'noperm10':
     material: GRAY_DYE
-    slot: 39
+    slot: 22
     priority: 2
     update: true
     hide_attributes: true
@@ -361,7 +361,7 @@ items:
   'visibility toggle':
     material: hdb-35645
     display_name: '&e&lTurn your pet &cOFF'
-    slot: 27
+    slot: 36
     priority: 1
     update: true
     hide_attributes: true
