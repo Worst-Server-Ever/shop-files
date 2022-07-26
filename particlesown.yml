@@ -1,6 +1,6 @@
 menu_title: '&b&lparticle menu'
 open_command: 'particlesown'
-size: 36
+size: 45
 update: true
 
 items:
@@ -302,3 +302,37 @@ items:
     - '&3&lLeft click &bto go to the partical shop!'
     left_click_commands:
     - '[player] particles'
+    
+    'rainbow':
+    material: hdb-31264
+    display_name: '&6ꝏ &eRainbow &6ꝏ'
+    slot: 29
+    priority: 1
+    update: true
+    hide_attributes: true
+    lore:
+    - '&bRainbow particle'
+    - ''
+    - '&3&lLeft click &bTo Equip'
+    view_requirement:
+      requirements:
+        kit_perm:
+          type: has permission
+          permission: playerparticles.groups.rainbow
+    left_click_commands:
+    - '[player] pp reset'
+    - '[player] pp group load Rainbow'
+    - '[close]'
+  'noperm4':
+    material: GRAY_DYE
+    slot: 29
+    priority: 2
+    update: true
+    hide_attributes: true
+    display_name: '&6Rainbow'
+    lore:
+    - '&bYou do not have permission for this effect!'
+    - ''
+    - '&3&lLeft click &bto go to the packages shop!'
+    left_click_commands:
+    - '[player] packages'
