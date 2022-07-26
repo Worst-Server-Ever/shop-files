@@ -318,10 +318,10 @@ items:
       requirements:
         kit_perm:
           type: has permission
-          permission: playerparticles.groups.rainbow
+          permission: playerparticles.groups.rainbows
     left_click_commands:
     - '[player] pp reset'
-    - '[player] pp group load Rainbow'
+    - '[player] pp group load Rainbows'
     - '[close]'
   'noperm9':
     material: GRAY_DYE
